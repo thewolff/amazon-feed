@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "amz feed",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Amazon Feed",
+    "description": "The description of the application"
+  }
+}
