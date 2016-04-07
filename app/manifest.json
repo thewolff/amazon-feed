@@ -47,7 +47,12 @@
         "http://*/*",
         "https://*/*"
       ],
+      "css": [
+        "bower_components/angular/angular-csp.css",
+        "styles/main.css"
+      ],
       "js": [
+        "bower_components/angular/angular.js",
         "scripts/contentscript.js"
       ],
       "run_at": "document_end",
@@ -57,7 +62,9 @@
   "omnibox": {
     "keyword": "OMNIBOX-KEYWORD"
   },
+  "content_security_policy": "script-src 'self'; object-src 'self'",
   "web_accessible_resources": [
+    "bower_components/angular/*",
     "images/icon-48.png"
   ]
 }
