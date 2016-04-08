@@ -28,8 +28,39 @@ window.addEventListener('load', function() {
 
   angular
     .module('amz')
-    .controller('MainController', function($scope) {
+    .factory('FeedFactory', function($http) {
+      var json = '/twitter.json';
+      var service = {
+        getData: getData
+      };
+
+      return service;
+
+      function getData() {
+        return $http.get(chrome.extension.getURL('/twitter.json'))
+          .then(getDataComplete)
+          .catch(getDataFailed);
+        function getDataComplete(response) {
+          return response.data;
+        }
+
+        function getDataFailed(error) {
+          console.log('XHR failed for getdata');
+        }
+      }
+  });
+
+  angular
+    .module('amz')
+    .controller('MainController', function($scope, FeedFactory) {
+      var feed = FeedFactory;
       console.log('yo controlling');
+      console.log('feedfactory', feed);
+
+      feed.getData().then(function(res) {
+        console.log('res', res);
+      });
+
     });
 
   console.log('so far, right?');

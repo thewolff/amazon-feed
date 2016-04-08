@@ -52,6 +52,7 @@
         "styles/main.css"
       ],
       "js": [
+        "twitter.json",
         "bower_components/angular/angular.js",
         "scripts/contentscript.js"
       ],
@@ -62,8 +63,9 @@
   "omnibox": {
     "keyword": "OMNIBOX-KEYWORD"
   },
-  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "content_security_policy": "script-src 'self'; object-src 'self'; connect-src 'self'",
   "web_accessible_resources": [
+    "twitter.json",
     "bower_components/angular/*",
     "images/icon-48.png"
   ]

@@ -1,5 +1,21 @@
 $padding: 20px;
-body {
-  background: red !important;
-  padding: $padding;
+.amz-feed {
+  background: red;
+  height: 250px;
+  margin-top: 14px;
+  width: 100%;
+}
+
+#unrec-pageContent .sidekick {
+  height: 196px !important;
+  position: relative !important;
+}
+
+#unrec-pageContent .sidebar #desktop-unrec-ad {
+  position: relative !important;
+}
+
+#unrec-pageContent .gw-flex-col .desktop-unrec-col {
+  min-height: 724px !important;
+  max-height: inherit !important;
 }
