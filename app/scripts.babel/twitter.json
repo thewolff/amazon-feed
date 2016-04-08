@@ -1,0 +1,3182 @@
+{
+ "query": {
+  "count": 1,
+  "created": "2016-03-07T23:53:56Z",
+  "lang": "en-US",
+  "diagnostics": {
+   "url": [
+    {
+     "execution-start-time": "1",
+     "execution-stop-time": "192",
+     "execution-time": "191",
+     "content": "http://www.datatables.org/twitter/twitter.search.tweets.xml"
+    },
+    {
+     "execution-start-time": "194",
+     "execution-stop-time": "385",
+     "execution-time": "191",
+     "content": "http://www.datatables.org/oauth/oauth.utils.js"
+    },
+    {
+     "execution-start-time": "386",
+     "execution-stop-time": "399",
+     "execution-time": "13",
+     "content": "http://oauth.googlecode.com/svn/code/javascript/oauth.js"
+    },
+    {
+     "execution-start-time": "402",
+     "execution-stop-time": "414",
+     "execution-time": "12",
+     "content": "http://oauth.googlecode.com/svn/code/javascript/sha1.js"
+    },
+    {
+     "execution-start-time": "430",
+     "execution-stop-time": "638",
+     "execution-time": "208",
+     "content": "https://api.twitter.com/1.1/search/tweets.json?q=%23amazon"
+    }
+   ],
+   "publiclyCallable": "true",
+   "javascript": {
+    "execution-start-time": "193",
+    "execution-stop-time": "649",
+    "execution-time": "456",
+    "instructions-used": "1040036",
+    "table-name": "twitter.search.tweets"
+   },
+   "user-time": "663",
+   "service-time": "615",
+   "build-version": "0.2.842"
+  },
+  "results": {
+   "json": {
+    "statuses": [
+     {
+      "metadata": {
+       "iso_language_code": "und",
+       "result_type": "recent"
+      },
+      "created_at": "Mon Mar 07 23:53:28 +0000 2016",
+      "id": "706991183306858496",
+      "id_str": "706991183306858496",
+      "text": "#Amazon #Dealoftheday #Fashion https://t.co/0KQff4JwrS https://t.co/BmtX5wGX2j",
+      "source": "<a href=\"http://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
+      "truncated": "false",
+      "in_reply_to_status_id": "null",
+      "in_reply_to_status_id_str": "null",
+      "in_reply_to_user_id": "null",
+      "in_reply_to_user_id_str": "null",
+      "in_reply_to_screen_name": "null",
+      "user": {
+       "id": "4896525462",
+       "id_str": "4896525462",
+       "name": "Denise",
+       "screen_name": "Denise_Evans12",
+       "location": null,
+       "description": null,
+       "url": "null",
+       "entities": {
+        "description": null
+       },
+       "protected": "false",
+       "followers_count": "3",
+       "friends_count": "0",
+       "listed_count": "7",
+       "created_at": "Fri Feb 12 09:06:56 +0000 2016",
+       "favourites_count": "0",
+       "utc_offset": "null",
+       "time_zone": "null",
+       "geo_enabled": "false",
+       "verified": "false",
+       "statuses_count": "2764",
+       "lang": "en",
+       "contributors_enabled": "false",
+       "is_translator": "false",
+       "is_translation_enabled": "false",
+       "profile_background_color": "F5F8FA",
+       "profile_background_image_url": "null",
+       "profile_background_image_url_https": "null",
+       "profile_background_tile": "false",
+       "profile_image_url": "http://pbs.twimg.com/profile_images/702447723451019264/3fkF-eJO_normal.jpg",
+       "profile_image_url_https": "https://pbs.twimg.com/profile_images/702447723451019264/3fkF-eJO_normal.jpg",
+       "profile_link_color": "2B7BB9",
+       "profile_sidebar_border_color": "C0DEED",
+       "profile_sidebar_fill_color": "DDEEF6",
+       "profile_text_color": "333333",
+       "profile_use_background_image": "true",
+       "has_extended_profile": "false",
+       "default_profile": "true",
+       "default_profile_image": "false",
+       "following": "false",
+       "follow_request_sent": "false",
+       "notifications": "false"
+      },
+      "geo": "null",
+      "coordinates": "null",
+      "place": "null",
+      "contributors": "null",
+      "is_quote_status": "false",
+      "retweet_count": "0",
+      "favorite_count": "0",
+      "entities": {
+       "hashtags": [
+        {
+         "text": "Amazon",
+         "indices": [
+          "0",
+          "7"
+         ]
+        },
+        {
+         "text": "Dealoftheday",
+         "indices": [
+          "8",
+          "21"
+         ]
+        },
+        {
+         "text": "Fashion",
+         "indices": [
+          "22",
+          "30"
+         ]
+        }
+       ],
+       "urls": {
+        "url": "https://t.co/0KQff4JwrS",
+        "expanded_url": "http://amzn.to/1L1rrE8",
+        "display_url": "amzn.to/1L1rrE8",
+        "indices": [
+         "31",
+         "54"
+        ]
+       },
+       "media": {
+        "id": "706991182887456768",
+        "id_str": "706991182887456768",
+        "indices": [
+         "55",
+         "78"
+        ],
+        "media_url": "http://pbs.twimg.com/media/Cc-8vCtXEAAqDoN.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/Cc-8vCtXEAAqDoN.jpg",
+        "url": "https://t.co/BmtX5wGX2j",
+        "display_url": "pic.twitter.com/BmtX5wGX2j",
+        "expanded_url": "http://twitter.com/Denise_Evans12/status/706991183306858496/photo/1",
+        "type": "photo",
+        "sizes": {
+         "thumb": {
+          "w": "150",
+          "h": "150",
+          "resize": "crop"
+         },
+         "medium": {
+          "w": "500",
+          "h": "750",
+          "resize": "fit"
+         },
+         "large": {
+          "w": "500",
+          "h": "750",
+          "resize": "fit"
+         },
+         "small": {
+          "w": "340",
+          "h": "510",
+          "resize": "fit"
+         }
+        }
+       }
+      },
+      "favorited": "false",
+      "retweeted": "false",
+      "possibly_sensitive": "false",
+      "lang": "und"
+     },
+     {
+      "metadata": {
+       "iso_language_code": "und",
+       "result_type": "recent"
+      },
+      "created_at": "Mon Mar 07 23:53:27 +0000 2016",
+      "id": "706991179943034880",
+      "id_str": "706991179943034880",
+      "text": "#Amazon #Dealoftheday #Fashion https://t.co/0KQff4JwrS https://t.co/vDbAoz3sUB",
+      "source": "<a href=\"http://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
+      "truncated": "false",
+      "in_reply_to_status_id": "null",
+      "in_reply_to_status_id_str": "null",
+      "in_reply_to_user_id": "null",
+      "in_reply_to_user_id_str": "null",
+      "in_reply_to_screen_name": "null",
+      "user": {
+       "id": "4896525462",
+       "id_str": "4896525462",
+       "name": "Denise",
+       "screen_name": "Denise_Evans12",
+       "location": null,
+       "description": null,
+       "url": "null",
+       "entities": {
+        "description": null
+       },
+       "protected": "false",
+       "followers_count": "3",
+       "friends_count": "0",
+       "listed_count": "7",
+       "created_at": "Fri Feb 12 09:06:56 +0000 2016",
+       "favourites_count": "0",
+       "utc_offset": "null",
+       "time_zone": "null",
+       "geo_enabled": "false",
+       "verified": "false",
+       "statuses_count": "2764",
+       "lang": "en",
+       "contributors_enabled": "false",
+       "is_translator": "false",
+       "is_translation_enabled": "false",
+       "profile_background_color": "F5F8FA",
+       "profile_background_image_url": "null",
+       "profile_background_image_url_https": "null",
+       "profile_background_tile": "false",
+       "profile_image_url": "http://pbs.twimg.com/profile_images/702447723451019264/3fkF-eJO_normal.jpg",
+       "profile_image_url_https": "https://pbs.twimg.com/profile_images/702447723451019264/3fkF-eJO_normal.jpg",
+       "profile_link_color": "2B7BB9",
+       "profile_sidebar_border_color": "C0DEED",
+       "profile_sidebar_fill_color": "DDEEF6",
+       "profile_text_color": "333333",
+       "profile_use_background_image": "true",
+       "has_extended_profile": "false",
+       "default_profile": "true",
+       "default_profile_image": "false",
+       "following": "false",
+       "follow_request_sent": "false",
+       "notifications": "false"
+      },
+      "geo": "null",
+      "coordinates": "null",
+      "place": "null",
+      "contributors": "null",
+      "is_quote_status": "false",
+      "retweet_count": "0",
+      "favorite_count": "0",
+      "entities": {
+       "hashtags": [
+        {
+         "text": "Amazon",
+         "indices": [
+          "0",
+          "7"
+         ]
+        },
+        {
+         "text": "Dealoftheday",
+         "indices": [
+          "8",
+          "21"
+         ]
+        },
+        {
+         "text": "Fashion",
+         "indices": [
+          "22",
+          "30"
+         ]
+        }
+       ],
+       "urls": {
+        "url": "https://t.co/0KQff4JwrS",
+        "expanded_url": "http://amzn.to/1L1rrE8",
+        "display_url": "amzn.to/1L1rrE8",
+        "indices": [
+         "31",
+         "54"
+        ]
+       },
+       "media": {
+        "id": "706991179766824960",
+        "id_str": "706991179766824960",
+        "indices": [
+         "55",
+         "78"
+        ],
+        "media_url": "http://pbs.twimg.com/media/Cc-8u3FWAAAYZ_9.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/Cc-8u3FWAAAYZ_9.jpg",
+        "url": "https://t.co/vDbAoz3sUB",
+        "display_url": "pic.twitter.com/vDbAoz3sUB",
+        "expanded_url": "http://twitter.com/Denise_Evans12/status/706991179943034880/photo/1",
+        "type": "photo",
+        "sizes": {
+         "thumb": {
+          "w": "150",
+          "h": "150",
+          "resize": "crop"
+         },
+         "small": {
+          "w": "340",
+          "h": "528",
+          "resize": "fit"
+         },
+         "large": {
+          "w": "483",
+          "h": "750",
+          "resize": "fit"
+         },
+         "medium": {
+          "w": "483",
+          "h": "750",
+          "resize": "fit"
+         }
+        }
+       }
+      },
+      "favorited": "false",
+      "retweeted": "false",
+      "possibly_sensitive": "false",
+      "lang": "und"
+     },
+     {
+      "metadata": {
+       "iso_language_code": "und",
+       "result_type": "recent"
+      },
+      "created_at": "Mon Mar 07 23:53:26 +0000 2016",
+      "id": "706991176436588544",
+      "id_str": "706991176436588544",
+      "text": "#Amazon #Dealoftheday #Fashion https://t.co/0KQff4JwrS https://t.co/F3zxkrYGmD",
+      "source": "<a href=\"http://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
+      "truncated": "false",
+      "in_reply_to_status_id": "null",
+      "in_reply_to_status_id_str": "null",
+      "in_reply_to_user_id": "null",
+      "in_reply_to_user_id_str": "null",
+      "in_reply_to_screen_name": "null",
+      "user": {
+       "id": "4896525462",
+       "id_str": "4896525462",
+       "name": "Denise",
+       "screen_name": "Denise_Evans12",
+       "location": null,
+       "description": null,
+       "url": "null",
+       "entities": {
+        "description": null
+       },
+       "protected": "false",
+       "followers_count": "3",
+       "friends_count": "0",
+       "listed_count": "7",
+       "created_at": "Fri Feb 12 09:06:56 +0000 2016",
+       "favourites_count": "0",
+       "utc_offset": "null",
+       "time_zone": "null",
+       "geo_enabled": "false",
+       "verified": "false",
+       "statuses_count": "2764",
+       "lang": "en",
+       "contributors_enabled": "false",
+       "is_translator": "false",
+       "is_translation_enabled": "false",
+       "profile_background_color": "F5F8FA",
+       "profile_background_image_url": "null",
+       "profile_background_image_url_https": "null",
+       "profile_background_tile": "false",
+       "profile_image_url": "http://pbs.twimg.com/profile_images/702447723451019264/3fkF-eJO_normal.jpg",
+       "profile_image_url_https": "https://pbs.twimg.com/profile_images/702447723451019264/3fkF-eJO_normal.jpg",
+       "profile_link_color": "2B7BB9",
+       "profile_sidebar_border_color": "C0DEED",
+       "profile_sidebar_fill_color": "DDEEF6",
+       "profile_text_color": "333333",
+       "profile_use_background_image": "true",
+       "has_extended_profile": "false",
+       "default_profile": "true",
+       "default_profile_image": "false",
+       "following": "false",
+       "follow_request_sent": "false",
+       "notifications": "false"
+      },
+      "geo": "null",
+      "coordinates": "null",
+      "place": "null",
+      "contributors": "null",
+      "is_quote_status": "false",
+      "retweet_count": "0",
+      "favorite_count": "0",
+      "entities": {
+       "hashtags": [
+        {
+         "text": "Amazon",
+         "indices": [
+          "0",
+          "7"
+         ]
+        },
+        {
+         "text": "Dealoftheday",
+         "indices": [
+          "8",
+          "21"
+         ]
+        },
+        {
+         "text": "Fashion",
+         "indices": [
+          "22",
+          "30"
+         ]
+        }
+       ],
+       "urls": {
+        "url": "https://t.co/0KQff4JwrS",
+        "expanded_url": "http://amzn.to/1L1rrE8",
+        "display_url": "amzn.to/1L1rrE8",
+        "indices": [
+         "31",
+         "54"
+        ]
+       },
+       "media": {
+        "id": "706991176298143744",
+        "id_str": "706991176298143744",
+        "indices": [
+         "55",
+         "78"
+        ],
+        "media_url": "http://pbs.twimg.com/media/Cc-8uqKWIAAOAqS.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/Cc-8uqKWIAAOAqS.jpg",
+        "url": "https://t.co/F3zxkrYGmD",
+        "display_url": "pic.twitter.com/F3zxkrYGmD",
+        "expanded_url": "http://twitter.com/Denise_Evans12/status/706991176436588544/photo/1",
+        "type": "photo",
+        "sizes": {
+         "large": {
+          "w": "500",
+          "h": "500",
+          "resize": "fit"
+         },
+         "thumb": {
+          "w": "150",
+          "h": "150",
+          "resize": "crop"
+         },
+         "medium": {
+          "w": "500",
+          "h": "500",
+          "resize": "fit"
+         },
+         "small": {
+          "w": "340",
+          "h": "340",
+          "resize": "fit"
+         }
+        }
+       }
+      },
+      "favorited": "false",
+      "retweeted": "false",
+      "possibly_sensitive": "false",
+      "lang": "und"
+     },
+     {
+      "metadata": {
+       "iso_language_code": "en",
+       "result_type": "recent"
+      },
+      "created_at": "Mon Mar 07 23:53:22 +0000 2016",
+      "id": "706991161572003841",
+      "id_str": "706991161572003841",
+      "text": "RT @SocialBflyMag: Need a reason to shop? Win a $25 #Amazon gift card Mar14! Follow us! Fav&amp;RT to win! Check FB&amp;Insta for extra entry https…",
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "truncated": "false",
+      "in_reply_to_status_id": "null",
+      "in_reply_to_status_id_str": "null",
+      "in_reply_to_user_id": "null",
+      "in_reply_to_user_id_str": "null",
+      "in_reply_to_screen_name": "null",
+      "user": {
+       "id": "14911255",
+       "id_str": "14911255",
+       "name": "Holly",
+       "screen_name": "prismperfect",
+       "location": "Ohio, USA",
+       "description": "Nerd. Dreamer. Married, Cat Mom of 3.",
+       "url": "null",
+       "entities": {
+        "description": null
+       },
+       "protected": "false",
+       "followers_count": "2659",
+       "friends_count": "3085",
+       "listed_count": "233",
+       "created_at": "Mon May 26 17:29:28 +0000 2008",
+       "favourites_count": "526",
+       "utc_offset": "-18000",
+       "time_zone": "Eastern Time (US & Canada)",
+       "geo_enabled": "false",
+       "verified": "false",
+       "statuses_count": "199282",
+       "lang": "en",
+       "contributors_enabled": "false",
+       "is_translator": "false",
+       "is_translation_enabled": "false",
+       "profile_background_color": "0099B9",
+       "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000039611765/4744a3cf40c75d1674310de1bfea16e1.jpeg",
+       "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000039611765/4744a3cf40c75d1674310de1bfea16e1.jpeg",
+       "profile_background_tile": "true",
+       "profile_image_url": "http://pbs.twimg.com/profile_images/689818382565146624/JPQYLmB9_normal.jpg",
+       "profile_image_url_https": "https://pbs.twimg.com/profile_images/689818382565146624/JPQYLmB9_normal.jpg",
+       "profile_banner_url": "https://pbs.twimg.com/profile_banners/14911255/1455018087",
+       "profile_link_color": "0099B9",
+       "profile_sidebar_border_color": "FFFFFF",
+       "profile_sidebar_fill_color": "95E8EC",
+       "profile_text_color": "3C3940",
+       "profile_use_background_image": "true",
+       "has_extended_profile": "false",
+       "default_profile": "false",
+       "default_profile_image": "false",
+       "following": "false",
+       "follow_request_sent": "false",
+       "notifications": "false"
+      },
+      "geo": "null",
+      "coordinates": "null",
+      "place": "null",
+      "contributors": "null",
+      "retweeted_status": {
+       "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+       },
+       "created_at": "Mon Mar 07 21:30:26 +0000 2016",
+       "id": "706955190184845312",
+       "id_str": "706955190184845312",
+       "text": "Need a reason to shop? Win a $25 #Amazon gift card Mar14! Follow us! Fav&amp;RT to win! Check FB&amp;Insta for extra entry https://t.co/2wdVW70KrZ",
+       "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+       "truncated": "false",
+       "in_reply_to_status_id": "null",
+       "in_reply_to_status_id_str": "null",
+       "in_reply_to_user_id": "null",
+       "in_reply_to_user_id_str": "null",
+       "in_reply_to_screen_name": "null",
+       "user": {
+        "id": "3298410283",
+        "id_str": "3298410283",
+        "name": "Social Butterfly Mag",
+        "screen_name": "SocialBflyMag",
+        "location": "Pittsburgh, PA",
+        "description": "https://t.co/0xTJtfIpza: *Always a Contest *Always a Giveaway *Always the Most Extensive Social Calendar!",
+        "url": "https://t.co/9ZKxyl8TG7",
+        "entities": {
+         "url": {
+          "urls": {
+           "url": "https://t.co/9ZKxyl8TG7",
+           "expanded_url": "http://www.socialbutterflymagazine.com",
+           "display_url": "socialbutterflymagazine.com",
+           "indices": [
+            "0",
+            "23"
+           ]
+          }
+         },
+         "description": {
+          "urls": {
+           "url": "https://t.co/0xTJtfIpza",
+           "expanded_url": "http://SocialButterflyMagazine.com",
+           "display_url": "SocialButterflyMagazine.com",
+           "indices": [
+            "0",
+            "23"
+           ]
+          }
+         }
+        },
+        "protected": "false",
+        "followers_count": "4013",
+        "friends_count": "229",
+        "listed_count": "16",
+        "created_at": "Mon Jul 27 18:35:50 +0000 2015",
+        "favourites_count": "2322",
+        "utc_offset": "-18000",
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": "false",
+        "verified": "false",
+        "statuses_count": "770",
+        "lang": "en",
+        "contributors_enabled": "false",
+        "is_translator": "false",
+        "is_translation_enabled": "false",
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/626427523182673920/-Pp8c9Va.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/626427523182673920/-Pp8c9Va.png",
+        "profile_background_tile": "false",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/706924980508958721/4LOIdG6V_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/706924980508958721/4LOIdG6V_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3298410283/1457382383",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": "false",
+        "has_extended_profile": "false",
+        "default_profile": "false",
+        "default_profile_image": "false",
+        "following": "false",
+        "follow_request_sent": "false",
+        "notifications": "false"
+       },
+       "geo": "null",
+       "coordinates": "null",
+       "place": "null",
+       "contributors": "null",
+       "is_quote_status": "false",
+       "retweet_count": "144",
+       "favorite_count": "114",
+       "entities": {
+        "hashtags": {
+         "text": "Amazon",
+         "indices": [
+          "33",
+          "40"
+         ]
+        },
+        "media": {
+         "id": "706955189232635904",
+         "id_str": "706955189232635904",
+         "indices": [
+          "123",
+          "146"
+         ],
+         "media_url": "http://pbs.twimg.com/media/Cc-b_75UkAAm84D.jpg",
+         "media_url_https": "https://pbs.twimg.com/media/Cc-b_75UkAAm84D.jpg",
+         "url": "https://t.co/2wdVW70KrZ",
+         "display_url": "pic.twitter.com/2wdVW70KrZ",
+         "expanded_url": "http://twitter.com/SocialBflyMag/status/706955190184845312/photo/1",
+         "type": "photo",
+         "sizes": {
+          "thumb": {
+           "w": "150",
+           "h": "150",
+           "resize": "crop"
+          },
+          "small": {
+           "w": "340",
+           "h": "348",
+           "resize": "fit"
+          },
+          "medium": {
+           "w": "600",
+           "h": "614",
+           "resize": "fit"
+          },
+          "large": {
+           "w": "1024",
+           "h": "1047",
+           "resize": "fit"
+          }
+         }
+        }
+       },
+       "favorited": "false",
+       "retweeted": "false",
+       "possibly_sensitive": "false",
+       "lang": "en"
+      },
+      "is_quote_status": "false",
+      "retweet_count": "144",
+      "favorite_count": "0",
+      "entities": {
+       "hashtags": {
+        "text": "Amazon",
+        "indices": [
+         "52",
+         "59"
+        ]
+       },
+       "user_mentions": {
+        "screen_name": "SocialBflyMag",
+        "name": "Social Butterfly Mag",
+        "id": "3298410283",
+        "id_str": "3298410283",
+        "indices": [
+         "3",
+         "17"
+        ]
+       },
+       "media": {
+        "id": "706955189232635904",
+        "id_str": "706955189232635904",
+        "indices": [
+         "147",
+         "148"
+        ],
+        "media_url": "http://pbs.twimg.com/media/Cc-b_75UkAAm84D.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/Cc-b_75UkAAm84D.jpg",
+        "url": "https://t.co/2wdVW70KrZ",
+        "display_url": "pic.twitter.com/2wdVW70KrZ",
+        "expanded_url": "http://twitter.com/SocialBflyMag/status/706955190184845312/photo/1",
+        "type": "photo",
+        "sizes": {
+         "thumb": {
+          "w": "150",
+          "h": "150",
+          "resize": "crop"
+         },
+         "small": {
+          "w": "340",
+          "h": "348",
+          "resize": "fit"
+         },
+         "medium": {
+          "w": "600",
+          "h": "614",
+          "resize": "fit"
+         },
+         "large": {
+          "w": "1024",
+          "h": "1047",
+          "resize": "fit"
+         }
+        },
+        "source_status_id": "706955190184845312",
+        "source_status_id_str": "706955190184845312",
+        "source_user_id": "3298410283",
+        "source_user_id_str": "3298410283"
+       }
+      },
+      "favorited": "false",
+      "retweeted": "false",
+      "possibly_sensitive": "false",
+      "lang": "en"
+     },
+     {
+      "metadata": {
+       "iso_language_code": "en",
+       "result_type": "recent"
+      },
+      "created_at": "Mon Mar 07 23:53:19 +0000 2016",
+      "id": "706991149202804736",
+      "id_str": "706991149202804736",
+      "text": "FREE 👜 Try Amazon Prime for FREE 💻 https://t.co/nOKa6LL0eG #amazon    https://t.co/IqKLWHP4iH",
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "truncated": "false",
+      "in_reply_to_status_id": "null",
+      "in_reply_to_status_id_str": "null",
+      "in_reply_to_user_id": "null",
+      "in_reply_to_user_id_str": "null",
+      "in_reply_to_screen_name": "null",
+      "user": {
+       "id": "705232237051011072",
+       "id_str": "705232237051011072",
+       "name": "Shopaholic",
+       "screen_name": "shop_a_holic1",
+       "location": null,
+       "description": null,
+       "url": "null",
+       "entities": {
+        "description": null
+       },
+       "protected": "false",
+       "followers_count": "20",
+       "friends_count": "0",
+       "listed_count": "15",
+       "created_at": "Thu Mar 03 03:24:02 +0000 2016",
+       "favourites_count": "0",
+       "utc_offset": "null",
+       "time_zone": "null",
+       "geo_enabled": "false",
+       "verified": "false",
+       "statuses_count": "3493",
+       "lang": "en",
+       "contributors_enabled": "false",
+       "is_translator": "false",
+       "is_translation_enabled": "false",
+       "profile_background_color": "F5F8FA",
+       "profile_background_image_url": "null",
+       "profile_background_image_url_https": "null",
+       "profile_background_tile": "false",
+       "profile_image_url": "http://pbs.twimg.com/profile_images/705233373736759296/o4EG1OC5_normal.jpg",
+       "profile_image_url_https": "https://pbs.twimg.com/profile_images/705233373736759296/o4EG1OC5_normal.jpg",
+       "profile_link_color": "2B7BB9",
+       "profile_sidebar_border_color": "C0DEED",
+       "profile_sidebar_fill_color": "DDEEF6",
+       "profile_text_color": "333333",
+       "profile_use_background_image": "true",
+       "has_extended_profile": "false",
+       "default_profile": "true",
+       "default_profile_image": "false",
+       "following": "false",
+       "follow_request_sent": "false",
+       "notifications": "false"
+      },
+      "geo": "null",
+      "coordinates": "null",
+      "place": "null",
+      "contributors": "null",
+      "quoted_status_id": "706971804816965632",
+      "quoted_status_id_str": "706971804816965632",
+      "quoted_status": {
+       "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+       },
+       "created_at": "Mon Mar 07 22:36:27 +0000 2016",
+       "id": "706971804816965632",
+       "id_str": "706971804816965632",
+       "text": "Many prices reduced, #FreeShipping , &amp; 10% off purchase of $10 or more w/ coupon code YARNMM10 https://t.co/ehHgBJ5ypk #yarn #hooks #needles",
+       "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+       "truncated": "false",
+       "in_reply_to_status_id": "null",
+       "in_reply_to_status_id_str": "null",
+       "in_reply_to_user_id": "null",
+       "in_reply_to_user_id_str": "null",
+       "in_reply_to_screen_name": "null",
+       "user": {
+        "id": "4899313398",
+        "id_str": "4899313398",
+        "name": "SD",
+        "screen_name": "TheYarnucopia",
+        "location": "California, USA",
+        "description": "Lover and purveyor of yarn and related goods.",
+        "url": "https://t.co/Vk2sSc1neb",
+        "entities": {
+         "url": {
+          "urls": {
+           "url": "https://t.co/Vk2sSc1neb",
+           "expanded_url": "https://www.etsy.com/your/shops/Yarnucopia/",
+           "display_url": "etsy.com/your/shops/Yar…",
+           "indices": [
+            "0",
+            "23"
+           ]
+          }
+         },
+         "description": null
+        },
+        "protected": "false",
+        "followers_count": "14",
+        "friends_count": "31",
+        "listed_count": "1",
+        "created_at": "Fri Feb 12 23:54:23 +0000 2016",
+        "favourites_count": "1",
+        "utc_offset": "-28800",
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": "false",
+        "verified": "false",
+        "statuses_count": "22",
+        "lang": "en",
+        "contributors_enabled": "false",
+        "is_translator": "false",
+        "is_translation_enabled": "false",
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": "false",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/698300984515112960/CwxFJrhn_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/698300984515112960/CwxFJrhn_normal.jpg",
+        "profile_link_color": "981CEB",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": "false",
+        "has_extended_profile": "false",
+        "default_profile": "false",
+        "default_profile_image": "false",
+        "following": "false",
+        "follow_request_sent": "false",
+        "notifications": "false"
+       },
+       "geo": "null",
+       "coordinates": "null",
+       "place": "null",
+       "contributors": "null",
+       "is_quote_status": "false",
+       "retweet_count": "0",
+       "favorite_count": "0",
+       "entities": {
+        "hashtags": [
+         {
+          "text": "FreeShipping",
+          "indices": [
+           "21",
+           "34"
+          ]
+         },
+         {
+          "text": "yarn",
+          "indices": [
+           "123",
+           "128"
+          ]
+         },
+         {
+          "text": "hooks",
+          "indices": [
+           "129",
+           "135"
+          ]
+         },
+         {
+          "text": "needles",
+          "indices": [
+           "136",
+           "144"
+          ]
+         }
+        ],
+        "urls": {
+         "url": "https://t.co/ehHgBJ5ypk",
+         "expanded_url": "https://www.etsy.com/shop/Yarnucopia",
+         "display_url": "etsy.com/shop/Yarnucopia",
+         "indices": [
+          "99",
+          "122"
+         ]
+        }
+       },
+       "favorited": "false",
+       "retweeted": "false",
+       "possibly_sensitive": "false",
+       "lang": "en"
+      },
+      "is_quote_status": "true",
+      "retweet_count": "0",
+      "favorite_count": "0",
+      "entities": {
+       "hashtags": {
+        "text": "amazon",
+        "indices": [
+         "59",
+         "66"
+        ]
+       },
+       "urls": [
+        {
+         "url": "https://t.co/nOKa6LL0eG",
+         "expanded_url": "http://www.amazon.com/Amazon-Prime-One-Year-Membership/dp/B00DBYBNEE",
+         "display_url": "amazon.com/Amazon-Prime-O…",
+         "indices": [
+          "35",
+          "58"
+         ]
+        },
+        {
+         "url": "https://t.co/IqKLWHP4iH",
+         "expanded_url": "https://twitter.com/TheYarnucopia/status/706971804816965632",
+         "display_url": "twitter.com/TheYarnucopia/…",
+         "indices": [
+          "70",
+          "93"
+         ]
+        }
+       ]
+      },
+      "favorited": "false",
+      "retweeted": "false",
+      "possibly_sensitive": "false",
+      "lang": "en"
+     },
+     {
+      "metadata": {
+       "iso_language_code": "en",
+       "result_type": "recent"
+      },
+      "created_at": "Mon Mar 07 23:53:18 +0000 2016",
+      "id": "706991141615509504",
+      "id_str": "706991141615509504",
+      "text": "RT @Susaninlaguna: Chrissie comes of age the hard way #amazon  https://t.co/8SPJEANOp3  #KindleUnlimited #romance #kindle #ebooks #BYNR htt…",
+      "source": "<a href=\"https://roundteam.co\" rel=\"nofollow\">RoundTeam</a>",
+      "truncated": "false",
+      "in_reply_to_status_id": "null",
+      "in_reply_to_status_id_str": "null",
+      "in_reply_to_user_id": "null",
+      "in_reply_to_user_id_str": "null",
+      "in_reply_to_screen_name": "null",
+      "user": {
+       "id": "437303034",
+       "id_str": "437303034",
+       "name": "Dana Delamar",
+       "screen_name": "DanaDelamar",
+       "location": "Seattle",
+       "description": "Author of gritty, steamy romantic suspense set in exotic locales. International intrigue. Dark heroes. Passionate nights.",
+       "url": "http://t.co/mdH9coGiF2",
+       "entities": {
+        "url": {
+         "urls": {
+          "url": "http://t.co/mdH9coGiF2",
+          "expanded_url": "http://www.danadelamar.com",
+          "display_url": "danadelamar.com",
+          "indices": [
+           "0",
+           "22"
+          ]
+         }
+        },
+        "description": null
+       },
+       "protected": "false",
+       "followers_count": "6251",
+       "friends_count": "4872",
+       "listed_count": "546",
+       "created_at": "Thu Dec 15 07:25:53 +0000 2011",
+       "favourites_count": "49",
+       "utc_offset": "null",
+       "time_zone": "null",
+       "geo_enabled": "true",
+       "verified": "false",
+       "statuses_count": "146099",
+       "lang": "en",
+       "contributors_enabled": "false",
+       "is_translator": "false",
+       "is_translation_enabled": "false",
+       "profile_background_color": "709397",
+       "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/668332943018823681/L1eciGXu.jpg",
+       "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/668332943018823681/L1eciGXu.jpg",
+       "profile_background_tile": "true",
+       "profile_image_url": "http://pbs.twimg.com/profile_images/687854003321880576/MwGUlO_L_normal.jpg",
+       "profile_image_url_https": "https://pbs.twimg.com/profile_images/687854003321880576/MwGUlO_L_normal.jpg",
+       "profile_banner_url": "https://pbs.twimg.com/profile_banners/437303034/1448177927",
+       "profile_link_color": "FF3300",
+       "profile_sidebar_border_color": "FFFFFF",
+       "profile_sidebar_fill_color": "A0C5C7",
+       "profile_text_color": "333333",
+       "profile_use_background_image": "true",
+       "has_extended_profile": "false",
+       "default_profile": "false",
+       "default_profile_image": "false",
+       "following": "false",
+       "follow_request_sent": "false",
+       "notifications": "false"
+      },
+      "geo": "null",
+      "coordinates": "null",
+      "place": "null",
+      "contributors": "null",
+      "retweeted_status": {
+       "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+       },
+       "created_at": "Mon Mar 07 23:21:30 +0000 2016",
+       "id": "706983142553292800",
+       "id_str": "706983142553292800",
+       "text": "Chrissie comes of age the hard way #amazon  https://t.co/8SPJEANOp3  #KindleUnlimited #romance #kindle #ebooks #BYNR https://t.co/VDulCQQ7XA",
+       "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+       "truncated": "false",
+       "in_reply_to_status_id": "null",
+       "in_reply_to_status_id_str": "null",
+       "in_reply_to_user_id": "null",
+       "in_reply_to_user_id_str": "null",
+       "in_reply_to_screen_name": "null",
+       "user": {
+        "id": "30315515",
+        "id_str": "30315515",
+        "name": "Susan Ward",
+        "screen_name": "Susaninlaguna",
+        "location": null,
+        "description": "Romance Author: Amazon Bestselling Half Shell Series, Affair without End Series, Sand & Fog Series, and The Locked & Loaded series releasing 4/16/16",
+        "url": "http://t.co/swHq6VeOX2",
+        "entities": {
+         "url": {
+          "urls": {
+           "url": "http://t.co/swHq6VeOX2",
+           "expanded_url": "http://www.susanwardbooks.com",
+           "display_url": "susanwardbooks.com",
+           "indices": [
+            "0",
+            "22"
+           ]
+          }
+         },
+         "description": null
+        },
+        "protected": "false",
+        "followers_count": "15029",
+        "friends_count": "12726",
+        "listed_count": "950",
+        "created_at": "Fri Apr 10 21:18:07 +0000 2009",
+        "favourites_count": "10231",
+        "utc_offset": "-28800",
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": "true",
+        "verified": "false",
+        "statuses_count": "106433",
+        "lang": "en",
+        "contributors_enabled": "false",
+        "is_translator": "false",
+        "is_translation_enabled": "false",
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/623118684534390784/J_aQNO_A.jpg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/623118684534390784/J_aQNO_A.jpg",
+        "profile_background_tile": "true",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/507653262124658688/84y5ox-1_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/507653262124658688/84y5ox-1_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/30315515/1438638553",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": "true",
+        "has_extended_profile": "false",
+        "default_profile": "false",
+        "default_profile_image": "false",
+        "following": "false",
+        "follow_request_sent": "false",
+        "notifications": "false"
+       },
+       "geo": "null",
+       "coordinates": "null",
+       "place": "null",
+       "contributors": "null",
+       "is_quote_status": "false",
+       "retweet_count": "3",
+       "favorite_count": "0",
+       "entities": {
+        "hashtags": [
+         {
+          "text": "amazon",
+          "indices": [
+           "35",
+           "42"
+          ]
+         },
+         {
+          "text": "KindleUnlimited",
+          "indices": [
+           "69",
+           "85"
+          ]
+         },
+         {
+          "text": "romance",
+          "indices": [
+           "86",
+           "94"
+          ]
+         },
+         {
+          "text": "kindle",
+          "indices": [
+           "95",
+           "102"
+          ]
+         },
+         {
+          "text": "ebooks",
+          "indices": [
+           "103",
+           "110"
+          ]
+         },
+         {
+          "text": "BYNR",
+          "indices": [
+           "111",
+           "116"
+          ]
+         }
+        ],
+        "urls": {
+         "url": "https://t.co/8SPJEANOp3",
+         "expanded_url": "http://amzn.to/1LLXQvw",
+         "display_url": "amzn.to/1LLXQvw",
+         "indices": [
+          "44",
+          "67"
+         ]
+        },
+        "media": {
+         "id": "706983141869662208",
+         "id_str": "706983141869662208",
+         "indices": [
+          "117",
+          "140"
+         ],
+         "media_url": "http://pbs.twimg.com/media/Cc-1a_lUsAA8EZS.jpg",
+         "media_url_https": "https://pbs.twimg.com/media/Cc-1a_lUsAA8EZS.jpg",
+         "url": "https://t.co/VDulCQQ7XA",
+         "display_url": "pic.twitter.com/VDulCQQ7XA",
+         "expanded_url": "http://twitter.com/Susaninlaguna/status/706983142553292800/photo/1",
+         "type": "photo",
+         "sizes": {
+          "small": {
+           "w": "340",
+           "h": "340",
+           "resize": "fit"
+          },
+          "large": {
+           "w": "1024",
+           "h": "1024",
+           "resize": "fit"
+          },
+          "thumb": {
+           "w": "150",
+           "h": "150",
+           "resize": "crop"
+          },
+          "medium": {
+           "w": "600",
+           "h": "600",
+           "resize": "fit"
+          }
+         }
+        }
+       },
+       "favorited": "false",
+       "retweeted": "false",
+       "possibly_sensitive": "false",
+       "lang": "en"
+      },
+      "is_quote_status": "false",
+      "retweet_count": "3",
+      "favorite_count": "0",
+      "entities": {
+       "hashtags": [
+        {
+         "text": "amazon",
+         "indices": [
+          "54",
+          "61"
+         ]
+        },
+        {
+         "text": "KindleUnlimited",
+         "indices": [
+          "88",
+          "104"
+         ]
+        },
+        {
+         "text": "romance",
+         "indices": [
+          "105",
+          "113"
+         ]
+        },
+        {
+         "text": "kindle",
+         "indices": [
+          "114",
+          "121"
+         ]
+        },
+        {
+         "text": "ebooks",
+         "indices": [
+          "122",
+          "129"
+         ]
+        },
+        {
+         "text": "BYNR",
+         "indices": [
+          "130",
+          "135"
+         ]
+        }
+       ],
+       "user_mentions": {
+        "screen_name": "Susaninlaguna",
+        "name": "Susan Ward",
+        "id": "30315515",
+        "id_str": "30315515",
+        "indices": [
+         "3",
+         "17"
+        ]
+       },
+       "urls": {
+        "url": "https://t.co/8SPJEANOp3",
+        "expanded_url": "http://amzn.to/1LLXQvw",
+        "display_url": "amzn.to/1LLXQvw",
+        "indices": [
+         "63",
+         "86"
+        ]
+       },
+       "media": {
+        "id": "706983141869662208",
+        "id_str": "706983141869662208",
+        "indices": [
+         "139",
+         "140"
+        ],
+        "media_url": "http://pbs.twimg.com/media/Cc-1a_lUsAA8EZS.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/Cc-1a_lUsAA8EZS.jpg",
+        "url": "https://t.co/VDulCQQ7XA",
+        "display_url": "pic.twitter.com/VDulCQQ7XA",
+        "expanded_url": "http://twitter.com/Susaninlaguna/status/706983142553292800/photo/1",
+        "type": "photo",
+        "sizes": {
+         "small": {
+          "w": "340",
+          "h": "340",
+          "resize": "fit"
+         },
+         "large": {
+          "w": "1024",
+          "h": "1024",
+          "resize": "fit"
+         },
+         "thumb": {
+          "w": "150",
+          "h": "150",
+          "resize": "crop"
+         },
+         "medium": {
+          "w": "600",
+          "h": "600",
+          "resize": "fit"
+         }
+        },
+        "source_status_id": "706983142553292800",
+        "source_status_id_str": "706983142553292800",
+        "source_user_id": "30315515",
+        "source_user_id_str": "30315515"
+       }
+      },
+      "favorited": "false",
+      "retweeted": "false",
+      "possibly_sensitive": "false",
+      "lang": "en"
+     },
+     {
+      "metadata": {
+       "iso_language_code": "en",
+       "result_type": "recent"
+      },
+      "created_at": "Mon Mar 07 23:53:14 +0000 2016",
+      "id": "706991124699676673",
+      "id_str": "706991124699676673",
+      "text": "RT @humblethepoet: Our time is limited\n\nso be mindful of who you spend it on\n\nGet both books: https://t.co/iHhIxn8poK &amp; #Amazon\n\n=) https:/…",
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "truncated": "false",
+      "in_reply_to_status_id": "null",
+      "in_reply_to_status_id_str": "null",
+      "in_reply_to_user_id": "null",
+      "in_reply_to_user_id_str": "null",
+      "in_reply_to_screen_name": "null",
+      "user": {
+       "id": "4909424712",
+       "id_str": "4909424712",
+       "name": "SuperwomanFanPage",
+       "screen_name": "BebawyMera",
+       "location": "Christchurch City, New Zealand",
+       "description": "IISuperwomanII is my Queen she is so kind, beautiful, inspirational and hillarious. If your not subscribed to her what are you waiting for?! Click on the link!↓",
+       "url": "https://t.co/vQSq5JsSkA",
+       "entities": {
+        "url": {
+         "urls": {
+          "url": "https://t.co/vQSq5JsSkA",
+          "expanded_url": "https://m.youtube.com/user/IISuperwomanII",
+          "display_url": "m.youtube.com/user/IISuperwo…",
+          "indices": [
+           "0",
+           "23"
+          ]
+         }
+        },
+        "description": null
+       },
+       "protected": "false",
+       "followers_count": "42",
+       "friends_count": "31",
+       "listed_count": "0",
+       "created_at": "Mon Feb 15 03:40:37 +0000 2016",
+       "favourites_count": "1538",
+       "utc_offset": "null",
+       "time_zone": "null",
+       "geo_enabled": "false",
+       "verified": "false",
+       "statuses_count": "1195",
+       "lang": "en",
+       "contributors_enabled": "false",
+       "is_translator": "false",
+       "is_translation_enabled": "false",
+       "profile_background_color": "F5F8FA",
+       "profile_background_image_url": "null",
+       "profile_background_image_url_https": "null",
+       "profile_background_tile": "false",
+       "profile_image_url": "http://pbs.twimg.com/profile_images/703482551243972608/VZvgHvNC_normal.jpg",
+       "profile_image_url_https": "https://pbs.twimg.com/profile_images/703482551243972608/VZvgHvNC_normal.jpg",
+       "profile_banner_url": "https://pbs.twimg.com/profile_banners/4909424712/1456474695",
+       "profile_link_color": "2B7BB9",
+       "profile_sidebar_border_color": "C0DEED",
+       "profile_sidebar_fill_color": "DDEEF6",
+       "profile_text_color": "333333",
+       "profile_use_background_image": "true",
+       "has_extended_profile": "true",
+       "default_profile": "true",
+       "default_profile_image": "false",
+       "following": "false",
+       "follow_request_sent": "false",
+       "notifications": "false"
+      },
+      "geo": "null",
+      "coordinates": "null",
+      "place": "null",
+      "contributors": "null",
+      "retweeted_status": {
+       "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+       },
+       "created_at": "Mon Mar 07 23:25:20 +0000 2016",
+       "id": "706984106358382592",
+       "id_str": "706984106358382592",
+       "text": "Our time is limited\n\nso be mindful of who you spend it on\n\nGet both books: https://t.co/iHhIxn8poK &amp; #Amazon\n\n=) https://t.co/cSYfXB7nZH",
+       "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+       "truncated": "false",
+       "in_reply_to_status_id": "null",
+       "in_reply_to_status_id_str": "null",
+       "in_reply_to_user_id": "null",
+       "in_reply_to_user_id_str": "null",
+       "in_reply_to_screen_name": "null",
+       "user": {
+        "id": "26385871",
+        "id_str": "26385871",
+        "name": "HumbleThePoet .com",
+        "screen_name": "humblethepoet",
+        "location": "Toronto, Ontario",
+        "description": "Shake Your Ass | Shake Your Mind | 416 | Son of a Cabbie | Rhyme Slanger | Author | Bushy Bearded Bandit| Your Future Ex-Boyfriend | http://t.co/XMa1DYsV1W |",
+        "url": "http://t.co/SsL6hsFrKk",
+        "entities": {
+         "url": {
+          "urls": {
+           "url": "http://t.co/SsL6hsFrKk",
+           "expanded_url": "http://Youtube.com/HumbleThePoet",
+           "display_url": "Youtube.com/HumbleThePoet",
+           "indices": [
+            "0",
+            "22"
+           ]
+          }
+         },
+         "description": {
+          "urls": {
+           "url": "http://t.co/XMa1DYsV1W",
+           "expanded_url": "http://humblethepoet.com",
+           "display_url": "humblethepoet.com",
+           "indices": [
+            "133",
+            "155"
+           ]
+          }
+         }
+        },
+        "protected": "false",
+        "followers_count": "56183",
+        "friends_count": "775",
+        "listed_count": "239",
+        "created_at": "Wed Mar 25 01:07:33 +0000 2009",
+        "favourites_count": "2556",
+        "utc_offset": "-18000",
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": "true",
+        "verified": "false",
+        "statuses_count": "24148",
+        "lang": "en",
+        "contributors_enabled": "false",
+        "is_translator": "false",
+        "is_translation_enabled": "false",
+        "profile_background_color": "D61C1C",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/704814862/248cd704206226622a0619cdc405d70f.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/704814862/248cd704206226622a0619cdc405d70f.jpeg",
+        "profile_background_tile": "true",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/485217982725910530/fMKOgRRJ_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/485217982725910530/fMKOgRRJ_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/26385871/1379613771",
+        "profile_link_color": "3B94D9",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "EBEBEB",
+        "profile_text_color": "333333",
+        "profile_use_background_image": "true",
+        "has_extended_profile": "false",
+        "default_profile": "false",
+        "default_profile_image": "false",
+        "following": "false",
+        "follow_request_sent": "false",
+        "notifications": "false"
+       },
+       "geo": "null",
+       "coordinates": "null",
+       "place": "null",
+       "contributors": "null",
+       "is_quote_status": "false",
+       "retweet_count": "3",
+       "favorite_count": "20",
+       "entities": {
+        "hashtags": {
+         "text": "Amazon",
+         "indices": [
+          "105",
+          "112"
+         ]
+        },
+        "urls": {
+         "url": "https://t.co/iHhIxn8poK",
+         "expanded_url": "http://humblethepoet.com",
+         "display_url": "humblethepoet.com",
+         "indices": [
+          "75",
+          "98"
+         ]
+        },
+        "media": {
+         "id": "706984105955688449",
+         "id_str": "706984105955688449",
+         "indices": [
+          "117",
+          "140"
+         ],
+         "media_url": "http://pbs.twimg.com/media/Cc-2THFWAAE2-BY.jpg",
+         "media_url_https": "https://pbs.twimg.com/media/Cc-2THFWAAE2-BY.jpg",
+         "url": "https://t.co/cSYfXB7nZH",
+         "display_url": "pic.twitter.com/cSYfXB7nZH",
+         "expanded_url": "http://twitter.com/humblethepoet/status/706984106358382592/photo/1",
+         "type": "photo",
+         "sizes": {
+          "medium": {
+           "w": "597",
+           "h": "582",
+           "resize": "fit"
+          },
+          "thumb": {
+           "w": "150",
+           "h": "150",
+           "resize": "crop"
+          },
+          "large": {
+           "w": "597",
+           "h": "582",
+           "resize": "fit"
+          },
+          "small": {
+           "w": "340",
+           "h": "331",
+           "resize": "fit"
+          }
+         }
+        }
+       },
+       "favorited": "false",
+       "retweeted": "false",
+       "possibly_sensitive": "false",
+       "lang": "en"
+      },
+      "is_quote_status": "false",
+      "retweet_count": "3",
+      "favorite_count": "0",
+      "entities": {
+       "hashtags": {
+        "text": "Amazon",
+        "indices": [
+         "124",
+         "131"
+        ]
+       },
+       "user_mentions": {
+        "screen_name": "humblethepoet",
+        "name": "HumbleThePoet .com",
+        "id": "26385871",
+        "id_str": "26385871",
+        "indices": [
+         "3",
+         "17"
+        ]
+       },
+       "urls": {
+        "url": "https://t.co/iHhIxn8poK",
+        "expanded_url": "http://humblethepoet.com",
+        "display_url": "humblethepoet.com",
+        "indices": [
+         "94",
+         "117"
+        ]
+       },
+       "media": {
+        "id": "706984105955688449",
+        "id_str": "706984105955688449",
+        "indices": [
+         "143",
+         "144"
+        ],
+        "media_url": "http://pbs.twimg.com/media/Cc-2THFWAAE2-BY.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/Cc-2THFWAAE2-BY.jpg",
+        "url": "https://t.co/cSYfXB7nZH",
+        "display_url": "pic.twitter.com/cSYfXB7nZH",
+        "expanded_url": "http://twitter.com/humblethepoet/status/706984106358382592/photo/1",
+        "type": "photo",
+        "sizes": {
+         "medium": {
+          "w": "597",
+          "h": "582",
+          "resize": "fit"
+         },
+         "thumb": {
+          "w": "150",
+          "h": "150",
+          "resize": "crop"
+         },
+         "large": {
+          "w": "597",
+          "h": "582",
+          "resize": "fit"
+         },
+         "small": {
+          "w": "340",
+          "h": "331",
+          "resize": "fit"
+         }
+        },
+        "source_status_id": "706984106358382592",
+        "source_status_id_str": "706984106358382592",
+        "source_user_id": "26385871",
+        "source_user_id_str": "26385871"
+       }
+      },
+      "favorited": "false",
+      "retweeted": "false",
+      "possibly_sensitive": "false",
+      "lang": "en"
+     },
+     {
+      "metadata": {
+       "iso_language_code": "ja",
+       "result_type": "recent"
+      },
+      "created_at": "Mon Mar 07 23:53:10 +0000 2016",
+      "id": "706991110338404353",
+      "id_str": "706991110338404353",
+      "text": "MONSTER SPORT クラッチベダル【スポーツドライビングクラッチペダル】 スイフトスポーツ(ZC31S)/スイフト(ZC11S)用 846500-4650M MONSTER SPORT #Amazon https://t.co/pg7pTeOkB6",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "truncated": "false",
+      "in_reply_to_status_id": "null",
+      "in_reply_to_status_id_str": "null",
+      "in_reply_to_user_id": "null",
+      "in_reply_to_user_id_str": "null",
+      "in_reply_to_screen_name": "null",
+      "user": {
+       "id": "177048463",
+       "id_str": "177048463",
+       "name": "箱のコン&zc31s",
+       "screen_name": "BOX_rewrite",
+       "location": "兵庫県三田市",
+       "description": "社会人4年目 車:zc31sスイスポVセレクション 水樹奈々ファン ダンエボ:BOXnm7 LoL:箱nm7 maimai:BOX PSID:BOX_rewrite",
+       "url": "null",
+       "entities": {
+        "description": null
+       },
+       "protected": "false",
+       "followers_count": "577",
+       "friends_count": "509",
+       "listed_count": "9",
+       "created_at": "Wed Aug 11 03:22:41 +0000 2010",
+       "favourites_count": "258",
+       "utc_offset": "32400",
+       "time_zone": "Tokyo",
+       "geo_enabled": "true",
+       "verified": "false",
+       "statuses_count": "19966",
+       "lang": "ja",
+       "contributors_enabled": "false",
+       "is_translator": "false",
+       "is_translation_enabled": "false",
+       "profile_background_color": "000000",
+       "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/588098411515117568/USxxMqRd.jpg",
+       "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/588098411515117568/USxxMqRd.jpg",
+       "profile_background_tile": "true",
+       "profile_image_url": "http://pbs.twimg.com/profile_images/680935982305132544/XExgyRLF_normal.jpg",
+       "profile_image_url_https": "https://pbs.twimg.com/profile_images/680935982305132544/XExgyRLF_normal.jpg",
+       "profile_banner_url": "https://pbs.twimg.com/profile_banners/177048463/1453775556",
+       "profile_link_color": "1F98C7",
+       "profile_sidebar_border_color": "FFFFFF",
+       "profile_sidebar_fill_color": "FFED2B",
+       "profile_text_color": "874507",
+       "profile_use_background_image": "true",
+       "has_extended_profile": "true",
+       "default_profile": "false",
+       "default_profile_image": "false",
+       "following": "false",
+       "follow_request_sent": "false",
+       "notifications": "false"
+      },
+      "geo": "null",
+      "coordinates": "null",
+      "place": "null",
+      "contributors": "null",
+      "is_quote_status": "false",
+      "retweet_count": "0",
+      "favorite_count": "0",
+      "entities": {
+       "hashtags": {
+        "text": "Amazon",
+        "indices": [
+         "97",
+         "104"
+        ]
+       },
+       "urls": {
+        "url": "https://t.co/pg7pTeOkB6",
+        "expanded_url": "http://www.amazon.co.jp/dp/B008MU2F4O/ref=cm_sw_r_tw_udp_awd_ArH3wbHTDXDV8",
+        "display_url": "amazon.co.jp/dp/B008MU2F4O/…",
+        "indices": [
+         "105",
+         "128"
+        ]
+       }
+      },
+      "favorited": "false",
+      "retweeted": "false",
+      "possibly_sensitive": "false",
+      "lang": "ja"
+     },
+     {
+      "metadata": {
+       "iso_language_code": "en",
+       "result_type": "recent"
+      },
+      "created_at": "Mon Mar 07 23:53:10 +0000 2016",
+      "id": "706991109625421824",
+      "id_str": "706991109625421824",
+      "text": "She knows every delivery person.  #Amazon is the bane of her existence. \"Why you do this to me?\"  #dogs https://t.co/wgn2aJWV1q",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "truncated": "false",
+      "in_reply_to_status_id": "null",
+      "in_reply_to_status_id_str": "null",
+      "in_reply_to_user_id": "null",
+      "in_reply_to_user_id_str": "null",
+      "in_reply_to_screen_name": "null",
+      "user": {
+       "id": "4164975853",
+       "id_str": "4164975853",
+       "name": "Kitti Minx",
+       "screen_name": "Kitti_Minx",
+       "location": "Sin City",
+       "description": "Professional Model & Entertainer.  Geek Girl Extraordinaire. Book a date @ LoveRanch Vegas with me! :)",
+       "url": "https://t.co/lcRGoZWXV1",
+       "entities": {
+        "url": {
+         "urls": {
+          "url": "https://t.co/lcRGoZWXV1",
+          "expanded_url": "http://www.loveranch.net/kitti-minx.html",
+          "display_url": "loveranch.net/kitti-minx.html",
+          "indices": [
+           "0",
+           "23"
+          ]
+         }
+        },
+        "description": null
+       },
+       "protected": "false",
+       "followers_count": "406",
+       "friends_count": "92",
+       "listed_count": "24",
+       "created_at": "Sun Nov 08 05:34:52 +0000 2015",
+       "favourites_count": "65",
+       "utc_offset": "-28800",
+       "time_zone": "Pacific Time (US & Canada)",
+       "geo_enabled": "false",
+       "verified": "false",
+       "statuses_count": "1727",
+       "lang": "en",
+       "contributors_enabled": "false",
+       "is_translator": "false",
+       "is_translation_enabled": "false",
+       "profile_background_color": "000000",
+       "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/673896579217027072/ICjwpVHG.jpg",
+       "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/673896579217027072/ICjwpVHG.jpg",
+       "profile_background_tile": "true",
+       "profile_image_url": "http://pbs.twimg.com/profile_images/705944762835038208/3qSXu8I-_normal.jpg",
+       "profile_image_url_https": "https://pbs.twimg.com/profile_images/705944762835038208/3qSXu8I-_normal.jpg",
+       "profile_banner_url": "https://pbs.twimg.com/profile_banners/4164975853/1457145244",
+       "profile_link_color": "9266CC",
+       "profile_sidebar_border_color": "000000",
+       "profile_sidebar_fill_color": "000000",
+       "profile_text_color": "000000",
+       "profile_use_background_image": "true",
+       "has_extended_profile": "true",
+       "default_profile": "false",
+       "default_profile_image": "false",
+       "following": "false",
+       "follow_request_sent": "false",
+       "notifications": "false"
+      },
+      "geo": "null",
+      "coordinates": "null",
+      "place": "null",
+      "contributors": "null",
+      "is_quote_status": "false",
+      "retweet_count": "0",
+      "favorite_count": "0",
+      "entities": {
+       "hashtags": [
+        {
+         "text": "Amazon",
+         "indices": [
+          "34",
+          "41"
+         ]
+        },
+        {
+         "text": "dogs",
+         "indices": [
+          "98",
+          "103"
+         ]
+        }
+       ],
+       "media": {
+        "id": "706991105024270338",
+        "id_str": "706991105024270338",
+        "indices": [
+         "104",
+         "127"
+        ],
+        "media_url": "http://pbs.twimg.com/media/Cc-8qgpVIAI97he.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/Cc-8qgpVIAI97he.jpg",
+        "url": "https://t.co/wgn2aJWV1q",
+        "display_url": "pic.twitter.com/wgn2aJWV1q",
+        "expanded_url": "http://twitter.com/Kitti_Minx/status/706991109625421824/photo/1",
+        "type": "photo",
+        "sizes": {
+         "large": {
+          "w": "1024",
+          "h": "768",
+          "resize": "fit"
+         },
+         "medium": {
+          "w": "600",
+          "h": "450",
+          "resize": "fit"
+         },
+         "thumb": {
+          "w": "150",
+          "h": "150",
+          "resize": "crop"
+         },
+         "small": {
+          "w": "340",
+          "h": "255",
+          "resize": "fit"
+         }
+        }
+       }
+      },
+      "favorited": "false",
+      "retweeted": "false",
+      "possibly_sensitive": "false",
+      "lang": "en"
+     },
+     {
+      "metadata": {
+       "iso_language_code": "en",
+       "result_type": "recent"
+      },
+      "created_at": "Mon Mar 07 23:53:05 +0000 2016",
+      "id": "706991087039057920",
+      "id_str": "706991087039057920",
+      "text": "Create #Amazon #Affiliate web store in just a click. It's FREE https://t.co/l7XQClktEA #SeoService #SocialMedia Crozer-Keystone Fertility…",
+      "source": "<a href=\"http://dlvr.it\" rel=\"nofollow\">dlvr.it</a>",
+      "truncated": "false",
+      "in_reply_to_status_id": "null",
+      "in_reply_to_status_id_str": "null",
+      "in_reply_to_user_id": "null",
+      "in_reply_to_user_id_str": "null",
+      "in_reply_to_screen_name": "null",
+      "user": {
+       "id": "2765532516",
+       "id_str": "2765532516",
+       "name": "Web Hosting News",
+       "screen_name": "Hosting__News",
+       "location": "USA",
+       "description": "WordPress on VPS? It's easy! Install WordPress on VPS in just a click! Get simple  & easy VPS for $5 only! https://t.co/Gq0np2lXpV",
+       "url": "https://t.co/Gq0np2lXpV",
+       "entities": {
+        "url": {
+         "urls": {
+          "url": "https://t.co/Gq0np2lXpV",
+          "expanded_url": "http://bit.ly/197JNls",
+          "display_url": "bit.ly/197JNls",
+          "indices": [
+           "0",
+           "23"
+          ]
+         }
+        },
+        "description": {
+         "urls": {
+          "url": "https://t.co/Gq0np2lXpV",
+          "expanded_url": "http://bit.ly/197JNls",
+          "display_url": "bit.ly/197JNls",
+          "indices": [
+           "107",
+           "130"
+          ]
+         }
+        }
+       },
+       "protected": "false",
+       "followers_count": "1980",
+       "friends_count": "3105",
+       "listed_count": "831",
+       "created_at": "Mon Aug 25 06:57:19 +0000 2014",
+       "favourites_count": "1086",
+       "utc_offset": "25200",
+       "time_zone": "Jakarta",
+       "geo_enabled": "false",
+       "verified": "false",
+       "statuses_count": "16665",
+       "lang": "en",
+       "contributors_enabled": "false",
+       "is_translator": "false",
+       "is_translation_enabled": "false",
+       "profile_background_color": "C0DEED",
+       "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+       "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+       "profile_background_tile": "false",
+       "profile_image_url": "http://pbs.twimg.com/profile_images/550610111685615616/1C7SMRvy_normal.jpeg",
+       "profile_image_url_https": "https://pbs.twimg.com/profile_images/550610111685615616/1C7SMRvy_normal.jpeg",
+       "profile_link_color": "0084B4",
+       "profile_sidebar_border_color": "C0DEED",
+       "profile_sidebar_fill_color": "DDEEF6",
+       "profile_text_color": "333333",
+       "profile_use_background_image": "true",
+       "has_extended_profile": "false",
+       "default_profile": "true",
+       "default_profile_image": "false",
+       "following": "false",
+       "follow_request_sent": "false",
+       "notifications": "false"
+      },
+      "geo": "null",
+      "coordinates": "null",
+      "place": "null",
+      "contributors": "null",
+      "is_quote_status": "false",
+      "retweet_count": "0",
+      "favorite_count": "0",
+      "entities": {
+       "hashtags": [
+        {
+         "text": "Amazon",
+         "indices": [
+          "7",
+          "14"
+         ]
+        },
+        {
+         "text": "Affiliate",
+         "indices": [
+          "15",
+          "25"
+         ]
+        },
+        {
+         "text": "SeoService",
+         "indices": [
+          "87",
+          "98"
+         ]
+        },
+        {
+         "text": "SocialMedia",
+         "indices": [
+          "99",
+          "111"
+         ]
+        }
+       ],
+       "urls": {
+        "url": "https://t.co/l7XQClktEA",
+        "expanded_url": "http://zoncreator.fullcontentrss.com",
+        "display_url": "zoncreator.fullcontentrss.com",
+        "indices": [
+         "63",
+         "86"
+        ]
+       }
+      },
+      "favorited": "false",
+      "retweeted": "false",
+      "possibly_sensitive": "false",
+      "lang": "en"
+     },
+     {
+      "metadata": {
+       "iso_language_code": "ja",
+       "result_type": "recent"
+      },
+      "created_at": "Mon Mar 07 23:53:04 +0000 2016",
+      "id": "706991084337963008",
+      "id_str": "706991084337963008",
+      "text": "売上:153位\n【PS3】（ソニー・コンピュータエンタテインメント）\nワイヤレスコントローラ (DUALSHOCK3) ブラック\n￥ 6,580\nhttps://t.co/Xeg6QzSCDa\n#amazon #ranking",
+      "source": "<a href=\"http://www.rankinq.net/\" rel=\"nofollow\">amazon_rankinQ</a>",
+      "truncated": "false",
+      "in_reply_to_status_id": "null",
+      "in_reply_to_status_id_str": "null",
+      "in_reply_to_user_id": "null",
+      "in_reply_to_user_id_str": "null",
+      "in_reply_to_screen_name": "null",
+      "user": {
+       "id": "893294270",
+       "id_str": "893294270",
+       "name": "Amazonゲーム売上ランキング",
+       "screen_name": "amazon_rankinQ",
+       "location": null,
+       "description": "amazonでのゲーム売上ランキングを1時間に1回お知らせします。",
+       "url": "null",
+       "entities": {
+        "description": null
+       },
+       "protected": "false",
+       "followers_count": "214",
+       "friends_count": "255",
+       "listed_count": "12",
+       "created_at": "Sat Oct 20 13:53:52 +0000 2012",
+       "favourites_count": "0",
+       "utc_offset": "28800",
+       "time_zone": "Irkutsk",
+       "geo_enabled": "false",
+       "verified": "false",
+       "statuses_count": "14366",
+       "lang": "ja",
+       "contributors_enabled": "false",
+       "is_translator": "false",
+       "is_translation_enabled": "false",
+       "profile_background_color": "C0DEED",
+       "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+       "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+       "profile_background_tile": "false",
+       "profile_image_url": "http://pbs.twimg.com/profile_images/689070244262891520/dbI8fffy_normal.png",
+       "profile_image_url_https": "https://pbs.twimg.com/profile_images/689070244262891520/dbI8fffy_normal.png",
+       "profile_link_color": "0084B4",
+       "profile_sidebar_border_color": "C0DEED",
+       "profile_sidebar_fill_color": "DDEEF6",
+       "profile_text_color": "333333",
+       "profile_use_background_image": "true",
+       "has_extended_profile": "false",
+       "default_profile": "true",
+       "default_profile_image": "false",
+       "following": "false",
+       "follow_request_sent": "false",
+       "notifications": "false"
+      },
+      "geo": "null",
+      "coordinates": "null",
+      "place": "null",
+      "contributors": "null",
+      "is_quote_status": "false",
+      "retweet_count": "0",
+      "favorite_count": "0",
+      "entities": {
+       "hashtags": [
+        {
+         "text": "amazon",
+         "indices": [
+          "97",
+          "104"
+         ]
+        },
+        {
+         "text": "ranking",
+         "indices": [
+          "105",
+          "113"
+         ]
+        }
+       ],
+       "urls": {
+        "url": "https://t.co/Xeg6QzSCDa",
+        "expanded_url": "http://amzn.to/1IMGduh",
+        "display_url": "amzn.to/1IMGduh",
+        "indices": [
+         "73",
+         "96"
+        ]
+       }
+      },
+      "favorited": "false",
+      "retweeted": "false",
+      "possibly_sensitive": "false",
+      "lang": "ja"
+     },
+     {
+      "metadata": {
+       "iso_language_code": "en",
+       "result_type": "recent"
+      },
+      "created_at": "Mon Mar 07 23:53:00 +0000 2016",
+      "id": "706991065933471744",
+      "id_str": "706991065933471744",
+      "text": "RT @ofMichael_Human: #NewBook: \"Michael: Human\" available for pre-order today! On #Amazon and #KindleUnlimited https://t.co/vJAPrzyJx6 #IBE…",
+      "source": "<a href=\"http://www.twitter.com\" rel=\"nofollow\">Twitter for Windows Phone</a>",
+      "truncated": "false",
+      "in_reply_to_status_id": "null",
+      "in_reply_to_status_id_str": "null",
+      "in_reply_to_user_id": "null",
+      "in_reply_to_user_id_str": "null",
+      "in_reply_to_screen_name": "null",
+      "user": {
+       "id": "3315055431",
+       "id_str": "3315055431",
+       "name": "J Lynne",
+       "screen_name": "J_Lynne_",
+       "location": "Central New York",
+       "description": "Lover of Spider Plants, Crazy Cat Lady, Author of Everlasting Apple available on your kindle or kindle reading app",
+       "url": "http://t.co/e6ugF2mWDa",
+       "entities": {
+        "url": {
+         "urls": {
+          "url": "http://t.co/e6ugF2mWDa",
+          "expanded_url": "http://amazon.com/author/j_lynne",
+          "display_url": "amazon.com/author/j_lynne",
+          "indices": [
+           "0",
+           "22"
+          ]
+         }
+        },
+        "description": null
+       },
+       "protected": "false",
+       "followers_count": "4288",
+       "friends_count": "3941",
+       "listed_count": "450",
+       "created_at": "Tue Jun 09 14:53:43 +0000 2015",
+       "favourites_count": "1161",
+       "utc_offset": "-18000",
+       "time_zone": "Eastern Time (US & Canada)",
+       "geo_enabled": "false",
+       "verified": "false",
+       "statuses_count": "21033",
+       "lang": "en",
+       "contributors_enabled": "false",
+       "is_translator": "false",
+       "is_translation_enabled": "false",
+       "profile_background_color": "C0DEED",
+       "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+       "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+       "profile_background_tile": "false",
+       "profile_image_url": "http://pbs.twimg.com/profile_images/608287906134900737/wpjeHW5g_normal.jpg",
+       "profile_image_url_https": "https://pbs.twimg.com/profile_images/608287906134900737/wpjeHW5g_normal.jpg",
+       "profile_banner_url": "https://pbs.twimg.com/profile_banners/3315055431/1433871663",
+       "profile_link_color": "0084B4",
+       "profile_sidebar_border_color": "C0DEED",
+       "profile_sidebar_fill_color": "DDEEF6",
+       "profile_text_color": "333333",
+       "profile_use_background_image": "true",
+       "has_extended_profile": "false",
+       "default_profile": "true",
+       "default_profile_image": "false",
+       "following": "false",
+       "follow_request_sent": "false",
+       "notifications": "false"
+      },
+      "geo": "null",
+      "coordinates": "null",
+      "place": "null",
+      "contributors": "null",
+      "retweeted_status": {
+       "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+       },
+       "created_at": "Mon Mar 07 16:38:28 +0000 2016",
+       "id": "706881714174476291",
+       "id_str": "706881714174476291",
+       "text": "#NewBook: \"Michael: Human\" available for pre-order today! On #Amazon and #KindleUnlimited https://t.co/vJAPrzyJx6 #IBELIEVEINMICHAEL",
+       "source": "<a href=\"http://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
+       "truncated": "false",
+       "in_reply_to_status_id": "null",
+       "in_reply_to_status_id_str": "null",
+       "in_reply_to_user_id": "null",
+       "in_reply_to_user_id_str": "null",
+       "in_reply_to_screen_name": "null",
+       "user": {
+        "id": "702524181179736065",
+        "id_str": "702524181179736065",
+        "name": "Michael: Human",
+        "screen_name": "ofMichael_Human",
+        "location": "Earth",
+        "description": "A novel written by: Alfredo Goicuria. #IBELIEVEINMICHAEL #Amazon #Kindle #KindleUnlimited",
+        "url": "https://t.co/FR1gXEyE9S",
+        "entities": {
+         "url": {
+          "urls": {
+           "url": "https://t.co/FR1gXEyE9S",
+           "expanded_url": "http://amzn.com/B01C69WS16",
+           "display_url": "amzn.com/B01C69WS16",
+           "indices": [
+            "0",
+            "23"
+           ]
+          }
+         },
+         "description": null
+        },
+        "protected": "false",
+        "followers_count": "284",
+        "friends_count": "774",
+        "listed_count": "3",
+        "created_at": "Wed Feb 24 16:03:11 +0000 2016",
+        "favourites_count": "499",
+        "utc_offset": "-18000",
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": "false",
+        "verified": "false",
+        "statuses_count": "376",
+        "lang": "en",
+        "contributors_enabled": "false",
+        "is_translator": "false",
+        "is_translation_enabled": "false",
+        "profile_background_color": "0099B9",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme4/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme4/bg.gif",
+        "profile_background_tile": "false",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/703729471522738176/7Pu_sjoD_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/703729471522738176/7Pu_sjoD_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/702524181179736065/1456673536",
+        "profile_link_color": "0099B9",
+        "profile_sidebar_border_color": "5ED4DC",
+        "profile_sidebar_fill_color": "95E8EC",
+        "profile_text_color": "3C3940",
+        "profile_use_background_image": "true",
+        "has_extended_profile": "false",
+        "default_profile": "false",
+        "default_profile_image": "false",
+        "following": "false",
+        "follow_request_sent": "false",
+        "notifications": "false"
+       },
+       "geo": "null",
+       "coordinates": "null",
+       "place": "null",
+       "contributors": "null",
+       "is_quote_status": "false",
+       "retweet_count": "2",
+       "favorite_count": "1",
+       "entities": {
+        "hashtags": [
+         {
+          "text": "NewBook",
+          "indices": [
+           "0",
+           "8"
+          ]
+         },
+         {
+          "text": "Amazon",
+          "indices": [
+           "61",
+           "68"
+          ]
+         },
+         {
+          "text": "KindleUnlimited",
+          "indices": [
+           "73",
+           "89"
+          ]
+         },
+         {
+          "text": "IBELIEVEINMICHAEL",
+          "indices": [
+           "114",
+           "132"
+          ]
+         }
+        ],
+        "urls": {
+         "url": "https://t.co/vJAPrzyJx6",
+         "expanded_url": "http://bit.ly/1VFCO5q",
+         "display_url": "bit.ly/1VFCO5q",
+         "indices": [
+          "90",
+          "113"
+         ]
+        }
+       },
+       "favorited": "false",
+       "retweeted": "false",
+       "possibly_sensitive": "false",
+       "lang": "en"
+      },
+      "is_quote_status": "false",
+      "retweet_count": "2",
+      "favorite_count": "0",
+      "entities": {
+       "hashtags": [
+        {
+         "text": "NewBook",
+         "indices": [
+          "21",
+          "29"
+         ]
+        },
+        {
+         "text": "Amazon",
+         "indices": [
+          "82",
+          "89"
+         ]
+        },
+        {
+         "text": "KindleUnlimited",
+         "indices": [
+          "94",
+          "110"
+         ]
+        },
+        {
+         "text": "IBELIEVEINMICHAEL",
+         "indices": [
+          "135",
+          "140"
+         ]
+        }
+       ],
+       "user_mentions": {
+        "screen_name": "ofMichael_Human",
+        "name": "Michael: Human",
+        "id": "702524181179736065",
+        "id_str": "702524181179736065",
+        "indices": [
+         "3",
+         "19"
+        ]
+       },
+       "urls": {
+        "url": "https://t.co/vJAPrzyJx6",
+        "expanded_url": "http://bit.ly/1VFCO5q",
+        "display_url": "bit.ly/1VFCO5q",
+        "indices": [
+         "111",
+         "134"
+        ]
+       }
+      },
+      "favorited": "false",
+      "retweeted": "false",
+      "possibly_sensitive": "false",
+      "lang": "en"
+     },
+     {
+      "metadata": {
+       "iso_language_code": "en",
+       "result_type": "recent"
+      },
+      "created_at": "Mon Mar 07 23:52:52 +0000 2016",
+      "id": "706991035797213184",
+      "id_str": "706991035797213184",
+      "text": "RT @goodbuysalltime: No #Bunny Cuter Than Me #Easter Bodysuit https://t.co/yWxUQnQmcX  #Amazon #GoodBuysAlltheTime https://t.co/g2IHjDL3H7",
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Mobile Web (M5)</a>",
+      "truncated": "false",
+      "in_reply_to_status_id": "null",
+      "in_reply_to_status_id_str": "null",
+      "in_reply_to_user_id": "null",
+      "in_reply_to_user_id_str": "null",
+      "in_reply_to_screen_name": "null",
+      "user": {
+       "id": "293720071",
+       "id_str": "293720071",
+       "name": "Jesica Helgren",
+       "screen_name": "themommybunch",
+       "location": "Wisconsin",
+       "description": "Mom of 4 talking #Parenting #Food #Travel, #Tech & more!   **I'm also a Personal shopper - FREE to U! - https://t.co/Vyw3GXrGd7 ** admin@mommybunch.com",
+       "url": "http://t.co/zoFszTQnum",
+       "entities": {
+        "url": {
+         "urls": {
+          "url": "http://t.co/zoFszTQnum",
+          "expanded_url": "http://mommybunch.com",
+          "display_url": "mommybunch.com",
+          "indices": [
+           "0",
+           "22"
+          ]
+         }
+        },
+        "description": {
+         "urls": {
+          "url": "https://t.co/Vyw3GXrGd7",
+          "expanded_url": "http://syw.co/jesicahelgren",
+          "display_url": "syw.co/jesicahelgren",
+          "indices": [
+           "104",
+           "127"
+          ]
+         }
+        }
+       },
+       "protected": "false",
+       "followers_count": "15767",
+       "friends_count": "16288",
+       "listed_count": "329",
+       "created_at": "Thu May 05 21:12:18 +0000 2011",
+       "favourites_count": "224",
+       "utc_offset": "-21600",
+       "time_zone": "Central Time (US & Canada)",
+       "geo_enabled": "true",
+       "verified": "false",
+       "statuses_count": "26112",
+       "lang": "en",
+       "contributors_enabled": "false",
+       "is_translator": "false",
+       "is_translation_enabled": "false",
+       "profile_background_color": "7BADA7",
+       "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/613708532085424128/frVsWPJ6.png",
+       "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/613708532085424128/frVsWPJ6.png",
+       "profile_background_tile": "false",
+       "profile_image_url": "http://pbs.twimg.com/profile_images/553500798294839296/KCPhCuh2_normal.jpeg",
+       "profile_image_url_https": "https://pbs.twimg.com/profile_images/553500798294839296/KCPhCuh2_normal.jpeg",
+       "profile_banner_url": "https://pbs.twimg.com/profile_banners/293720071/1398266415",
+       "profile_link_color": "E81C4F",
+       "profile_sidebar_border_color": "FFFFFF",
+       "profile_sidebar_fill_color": "000000",
+       "profile_text_color": "000000",
+       "profile_use_background_image": "true",
+       "has_extended_profile": "false",
+       "default_profile": "false",
+       "default_profile_image": "false",
+       "following": "false",
+       "follow_request_sent": "false",
+       "notifications": "false"
+      },
+      "geo": "null",
+      "coordinates": "null",
+      "place": "null",
+      "contributors": "null",
+      "retweeted_status": {
+       "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+       },
+       "created_at": "Sat Mar 05 16:25:13 +0000 2016",
+       "id": "706153605187944449",
+       "id_str": "706153605187944449",
+       "text": "No #Bunny Cuter Than Me #Easter Bodysuit https://t.co/yWxUQnQmcX  #Amazon #GoodBuysAlltheTime https://t.co/g2IHjDL3H7",
+       "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+       "truncated": "false",
+       "in_reply_to_status_id": "null",
+       "in_reply_to_status_id_str": "null",
+       "in_reply_to_user_id": "null",
+       "in_reply_to_user_id_str": "null",
+       "in_reply_to_screen_name": "null",
+       "user": {
+        "id": "117271814",
+        "id_str": "117271814",
+        "name": "Maryann Lowden",
+        "screen_name": "goodbuysalltime",
+        "location": "Tennessee, USA",
+        "description": "Amazon FBA Seller eBay Top Rated Seller\nSay HELLO to a Good Buy",
+        "url": "http://t.co/C0fWhwWrcE",
+        "entities": {
+         "url": {
+          "urls": {
+           "url": "http://t.co/C0fWhwWrcE",
+           "expanded_url": "http://www.goodbuysallthetime.com",
+           "display_url": "goodbuysallthetime.com",
+           "indices": [
+            "0",
+            "22"
+           ]
+          }
+         },
+         "description": null
+        },
+        "protected": "false",
+        "followers_count": "3110",
+        "friends_count": "1424",
+        "listed_count": "862",
+        "created_at": "Thu Feb 25 02:38:07 +0000 2010",
+        "favourites_count": "2247",
+        "utc_offset": "-21600",
+        "time_zone": "Central Time (US & Canada)",
+        "geo_enabled": "true",
+        "verified": "false",
+        "statuses_count": "40729",
+        "lang": "en",
+        "contributors_enabled": "false",
+        "is_translator": "false",
+        "is_translation_enabled": "false",
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": "false",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1282866392/GOOD_BUYS_LOGO_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1282866392/GOOD_BUYS_LOGO_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": "true",
+        "has_extended_profile": "false",
+        "default_profile": "true",
+        "default_profile_image": "false",
+        "following": "false",
+        "follow_request_sent": "false",
+        "notifications": "false"
+       },
+       "geo": "null",
+       "coordinates": "null",
+       "place": "null",
+       "contributors": "null",
+       "is_quote_status": "false",
+       "retweet_count": "87",
+       "favorite_count": "26",
+       "entities": {
+        "hashtags": [
+         {
+          "text": "Bunny",
+          "indices": [
+           "3",
+           "9"
+          ]
+         },
+         {
+          "text": "Easter",
+          "indices": [
+           "24",
+           "31"
+          ]
+         },
+         {
+          "text": "Amazon",
+          "indices": [
+           "66",
+           "73"
+          ]
+         },
+         {
+          "text": "GoodBuysAlltheTime",
+          "indices": [
+           "74",
+           "93"
+          ]
+         }
+        ],
+        "urls": {
+         "url": "https://t.co/yWxUQnQmcX",
+         "expanded_url": "http://bit.ly/NoBunnyCuterThanMePinkEasterBodysuit",
+         "display_url": "bit.ly/NoBunnyCuterTh…",
+         "indices": [
+          "41",
+          "64"
+         ]
+        },
+        "media": {
+         "id": "706153604336332800",
+         "id_str": "706153604336332800",
+         "indices": [
+          "94",
+          "117"
+         ],
+         "media_url": "http://pbs.twimg.com/media/CczC9jdUMAARJlk.jpg",
+         "media_url_https": "https://pbs.twimg.com/media/CczC9jdUMAARJlk.jpg",
+         "url": "https://t.co/g2IHjDL3H7",
+         "display_url": "pic.twitter.com/g2IHjDL3H7",
+         "expanded_url": "http://twitter.com/goodbuysalltime/status/706153605187944449/photo/1",
+         "type": "photo",
+         "sizes": {
+          "medium": {
+           "w": "600",
+           "h": "712",
+           "resize": "fit"
+          },
+          "large": {
+           "w": "628",
+           "h": "745",
+           "resize": "fit"
+          },
+          "small": {
+           "w": "340",
+           "h": "403",
+           "resize": "fit"
+          },
+          "thumb": {
+           "w": "150",
+           "h": "150",
+           "resize": "crop"
+          }
+         }
+        }
+       },
+       "favorited": "false",
+       "retweeted": "false",
+       "possibly_sensitive": "false",
+       "lang": "en"
+      },
+      "is_quote_status": "false",
+      "retweet_count": "87",
+      "favorite_count": "0",
+      "entities": {
+       "hashtags": [
+        {
+         "text": "Bunny",
+         "indices": [
+          "24",
+          "30"
+         ]
+        },
+        {
+         "text": "Easter",
+         "indices": [
+          "45",
+          "52"
+         ]
+        },
+        {
+         "text": "Amazon",
+         "indices": [
+          "87",
+          "94"
+         ]
+        },
+        {
+         "text": "GoodBuysAlltheTime",
+         "indices": [
+          "95",
+          "114"
+         ]
+        }
+       ],
+       "user_mentions": {
+        "screen_name": "goodbuysalltime",
+        "name": "Maryann Lowden",
+        "id": "117271814",
+        "id_str": "117271814",
+        "indices": [
+         "3",
+         "19"
+        ]
+       },
+       "urls": {
+        "url": "https://t.co/yWxUQnQmcX",
+        "expanded_url": "http://bit.ly/NoBunnyCuterThanMePinkEasterBodysuit",
+        "display_url": "bit.ly/NoBunnyCuterTh…",
+        "indices": [
+         "62",
+         "85"
+        ]
+       },
+       "media": {
+        "id": "706153604336332800",
+        "id_str": "706153604336332800",
+        "indices": [
+         "115",
+         "138"
+        ],
+        "media_url": "http://pbs.twimg.com/media/CczC9jdUMAARJlk.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/CczC9jdUMAARJlk.jpg",
+        "url": "https://t.co/g2IHjDL3H7",
+        "display_url": "pic.twitter.com/g2IHjDL3H7",
+        "expanded_url": "http://twitter.com/goodbuysalltime/status/706153605187944449/photo/1",
+        "type": "photo",
+        "sizes": {
+         "medium": {
+          "w": "600",
+          "h": "712",
+          "resize": "fit"
+         },
+         "large": {
+          "w": "628",
+          "h": "745",
+          "resize": "fit"
+         },
+         "small": {
+          "w": "340",
+          "h": "403",
+          "resize": "fit"
+         },
+         "thumb": {
+          "w": "150",
+          "h": "150",
+          "resize": "crop"
+         }
+        },
+        "source_status_id": "706153605187944449",
+        "source_status_id_str": "706153605187944449",
+        "source_user_id": "117271814",
+        "source_user_id_str": "117271814"
+       }
+      },
+      "favorited": "false",
+      "retweeted": "false",
+      "possibly_sensitive": "false",
+      "lang": "en"
+     },
+     {
+      "metadata": {
+       "iso_language_code": "en",
+       "result_type": "recent"
+      },
+      "created_at": "Mon Mar 07 23:52:47 +0000 2016",
+      "id": "706991015039619072",
+      "id_str": "706991015039619072",
+      "text": "RT @goodbuysalltime: No #Bunny Cuter Than Me #Easter Bodysuit https://t.co/yWxUQnQmcX  #Amazon #GoodBuysAlltheTime https://t.co/g2IHjDL3H7",
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "truncated": "false",
+      "in_reply_to_status_id": "null",
+      "in_reply_to_status_id_str": "null",
+      "in_reply_to_user_id": "null",
+      "in_reply_to_user_id_str": "null",
+      "in_reply_to_screen_name": "null",
+      "user": {
+       "id": "1045854992",
+       "id_str": "1045854992",
+       "name": "Grown Ups Magazine",
+       "screen_name": "grownupsmag",
+       "location": "USA",
+       "description": "Free digital magazine & blog! Follow us if you're a mom, dad, grandma, grandpa, teacher, or any grownup who lives or works with kids. On Web, Android, & iTunes",
+       "url": "http://t.co/X8wAk7Cict",
+       "entities": {
+        "url": {
+         "urls": {
+          "url": "http://t.co/X8wAk7Cict",
+          "expanded_url": "http://grownupsmag.com",
+          "display_url": "grownupsmag.com",
+          "indices": [
+           "0",
+           "22"
+          ]
+         }
+        },
+        "description": null
+       },
+       "protected": "false",
+       "followers_count": "39895",
+       "friends_count": "34771",
+       "listed_count": "745",
+       "created_at": "Sat Dec 29 20:06:41 +0000 2012",
+       "favourites_count": "432",
+       "utc_offset": "-28800",
+       "time_zone": "Pacific Time (US & Canada)",
+       "geo_enabled": "false",
+       "verified": "false",
+       "statuses_count": "13445",
+       "lang": "en",
+       "contributors_enabled": "false",
+       "is_translator": "false",
+       "is_translation_enabled": "false",
+       "profile_background_color": "C0DEED",
+       "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+       "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+       "profile_background_tile": "false",
+       "profile_image_url": "http://pbs.twimg.com/profile_images/435807757006934016/qVGN-6kE_normal.png",
+       "profile_image_url_https": "https://pbs.twimg.com/profile_images/435807757006934016/qVGN-6kE_normal.png",
+       "profile_banner_url": "https://pbs.twimg.com/profile_banners/1045854992/1427427311",
+       "profile_link_color": "0084B4",
+       "profile_sidebar_border_color": "C0DEED",
+       "profile_sidebar_fill_color": "DDEEF6",
+       "profile_text_color": "333333",
+       "profile_use_background_image": "true",
+       "has_extended_profile": "false",
+       "default_profile": "true",
+       "default_profile_image": "false",
+       "following": "false",
+       "follow_request_sent": "false",
+       "notifications": "false"
+      },
+      "geo": "null",
+      "coordinates": "null",
+      "place": "null",
+      "contributors": "null",
+      "retweeted_status": {
+       "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+       },
+       "created_at": "Sat Mar 05 16:25:13 +0000 2016",
+       "id": "706153605187944449",
+       "id_str": "706153605187944449",
+       "text": "No #Bunny Cuter Than Me #Easter Bodysuit https://t.co/yWxUQnQmcX  #Amazon #GoodBuysAlltheTime https://t.co/g2IHjDL3H7",
+       "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+       "truncated": "false",
+       "in_reply_to_status_id": "null",
+       "in_reply_to_status_id_str": "null",
+       "in_reply_to_user_id": "null",
+       "in_reply_to_user_id_str": "null",
+       "in_reply_to_screen_name": "null",
+       "user": {
+        "id": "117271814",
+        "id_str": "117271814",
+        "name": "Maryann Lowden",
+        "screen_name": "goodbuysalltime",
+        "location": "Tennessee, USA",
+        "description": "Amazon FBA Seller eBay Top Rated Seller\nSay HELLO to a Good Buy",
+        "url": "http://t.co/C0fWhwWrcE",
+        "entities": {
+         "url": {
+          "urls": {
+           "url": "http://t.co/C0fWhwWrcE",
+           "expanded_url": "http://www.goodbuysallthetime.com",
+           "display_url": "goodbuysallthetime.com",
+           "indices": [
+            "0",
+            "22"
+           ]
+          }
+         },
+         "description": null
+        },
+        "protected": "false",
+        "followers_count": "3110",
+        "friends_count": "1424",
+        "listed_count": "862",
+        "created_at": "Thu Feb 25 02:38:07 +0000 2010",
+        "favourites_count": "2247",
+        "utc_offset": "-21600",
+        "time_zone": "Central Time (US & Canada)",
+        "geo_enabled": "true",
+        "verified": "false",
+        "statuses_count": "40729",
+        "lang": "en",
+        "contributors_enabled": "false",
+        "is_translator": "false",
+        "is_translation_enabled": "false",
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": "false",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1282866392/GOOD_BUYS_LOGO_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1282866392/GOOD_BUYS_LOGO_normal.jpg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": "true",
+        "has_extended_profile": "false",
+        "default_profile": "true",
+        "default_profile_image": "false",
+        "following": "false",
+        "follow_request_sent": "false",
+        "notifications": "false"
+       },
+       "geo": "null",
+       "coordinates": "null",
+       "place": "null",
+       "contributors": "null",
+       "is_quote_status": "false",
+       "retweet_count": "87",
+       "favorite_count": "26",
+       "entities": {
+        "hashtags": [
+         {
+          "text": "Bunny",
+          "indices": [
+           "3",
+           "9"
+          ]
+         },
+         {
+          "text": "Easter",
+          "indices": [
+           "24",
+           "31"
+          ]
+         },
+         {
+          "text": "Amazon",
+          "indices": [
+           "66",
+           "73"
+          ]
+         },
+         {
+          "text": "GoodBuysAlltheTime",
+          "indices": [
+           "74",
+           "93"
+          ]
+         }
+        ],
+        "urls": {
+         "url": "https://t.co/yWxUQnQmcX",
+         "expanded_url": "http://bit.ly/NoBunnyCuterThanMePinkEasterBodysuit",
+         "display_url": "bit.ly/NoBunnyCuterTh…",
+         "indices": [
+          "41",
+          "64"
+         ]
+        },
+        "media": {
+         "id": "706153604336332800",
+         "id_str": "706153604336332800",
+         "indices": [
+          "94",
+          "117"
+         ],
+         "media_url": "http://pbs.twimg.com/media/CczC9jdUMAARJlk.jpg",
+         "media_url_https": "https://pbs.twimg.com/media/CczC9jdUMAARJlk.jpg",
+         "url": "https://t.co/g2IHjDL3H7",
+         "display_url": "pic.twitter.com/g2IHjDL3H7",
+         "expanded_url": "http://twitter.com/goodbuysalltime/status/706153605187944449/photo/1",
+         "type": "photo",
+         "sizes": {
+          "medium": {
+           "w": "600",
+           "h": "712",
+           "resize": "fit"
+          },
+          "large": {
+           "w": "628",
+           "h": "745",
+           "resize": "fit"
+          },
+          "small": {
+           "w": "340",
+           "h": "403",
+           "resize": "fit"
+          },
+          "thumb": {
+           "w": "150",
+           "h": "150",
+           "resize": "crop"
+          }
+         }
+        }
+       },
+       "favorited": "false",
+       "retweeted": "false",
+       "possibly_sensitive": "false",
+       "lang": "en"
+      },
+      "is_quote_status": "false",
+      "retweet_count": "87",
+      "favorite_count": "0",
+      "entities": {
+       "hashtags": [
+        {
+         "text": "Bunny",
+         "indices": [
+          "24",
+          "30"
+         ]
+        },
+        {
+         "text": "Easter",
+         "indices": [
+          "45",
+          "52"
+         ]
+        },
+        {
+         "text": "Amazon",
+         "indices": [
+          "87",
+          "94"
+         ]
+        },
+        {
+         "text": "GoodBuysAlltheTime",
+         "indices": [
+          "95",
+          "114"
+         ]
+        }
+       ],
+       "user_mentions": {
+        "screen_name": "goodbuysalltime",
+        "name": "Maryann Lowden",
+        "id": "117271814",
+        "id_str": "117271814",
+        "indices": [
+         "3",
+         "19"
+        ]
+       },
+       "urls": {
+        "url": "https://t.co/yWxUQnQmcX",
+        "expanded_url": "http://bit.ly/NoBunnyCuterThanMePinkEasterBodysuit",
+        "display_url": "bit.ly/NoBunnyCuterTh…",
+        "indices": [
+         "62",
+         "85"
+        ]
+       },
+       "media": {
+        "id": "706153604336332800",
+        "id_str": "706153604336332800",
+        "indices": [
+         "115",
+         "138"
+        ],
+        "media_url": "http://pbs.twimg.com/media/CczC9jdUMAARJlk.jpg",
+        "media_url_https": "https://pbs.twimg.com/media/CczC9jdUMAARJlk.jpg",
+        "url": "https://t.co/g2IHjDL3H7",
+        "display_url": "pic.twitter.com/g2IHjDL3H7",
+        "expanded_url": "http://twitter.com/goodbuysalltime/status/706153605187944449/photo/1",
+        "type": "photo",
+        "sizes": {
+         "medium": {
+          "w": "600",
+          "h": "712",
+          "resize": "fit"
+         },
+         "large": {
+          "w": "628",
+          "h": "745",
+          "resize": "fit"
+         },
+         "small": {
+          "w": "340",
+          "h": "403",
+          "resize": "fit"
+         },
+         "thumb": {
+          "w": "150",
+          "h": "150",
+          "resize": "crop"
+         }
+        },
+        "source_status_id": "706153605187944449",
+        "source_status_id_str": "706153605187944449",
+        "source_user_id": "117271814",
+        "source_user_id_str": "117271814"
+       }
+      },
+      "favorited": "false",
+      "retweeted": "false",
+      "possibly_sensitive": "false",
+      "lang": "en"
+     },
+     {
+      "metadata": {
+       "iso_language_code": "ja",
+       "result_type": "recent"
+      },
+      "created_at": "Mon Mar 07 23:52:42 +0000 2016",
+      "id": "706990992742682624",
+      "id_str": "706990992742682624",
+      "text": "ミナミカゼ https://t.co/y5RoLg02Ct #Amazon",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "truncated": "false",
+      "in_reply_to_status_id": "null",
+      "in_reply_to_status_id_str": "null",
+      "in_reply_to_user_id": "null",
+      "in_reply_to_user_id_str": "null",
+      "in_reply_to_screen_name": "null",
+      "user": {
+       "id": "420474234",
+       "id_str": "420474234",
+       "name": "M_Radio.appを開けませんでした",
+       "screen_name": "M_Radio1",
+       "location": "下総国／赤坂（スタジオ）",
+       "description": "ぱんつ送られてくればかぶったりする紳士な職業、サウンドミキサーをしております。　http://t.co/SOvmBbvktk\n本業の余力にてニコ動、同人系もやってます。真面目な仕事依頼もお待ちしています。依頼窓口→http://t.co/OgzxcNLMIc",
+       "url": "https://t.co/lx86MU9SAI",
+       "entities": {
+        "url": {
+         "urls": {
+          "url": "https://t.co/lx86MU9SAI",
+          "expanded_url": "http://www.nicovideo.jp/mylist/32308983",
+          "display_url": "nicovideo.jp/mylist/32308983",
+          "indices": [
+           "0",
+           "23"
+          ]
+         }
+        },
+        "description": {
+         "urls": [
+          {
+           "url": "http://t.co/SOvmBbvktk",
+           "expanded_url": "http://bit.ly/Xa32B1",
+           "display_url": "bit.ly/Xa32B1",
+           "indices": [
+            "40",
+            "62"
+           ]
+          },
+          {
+           "url": "http://t.co/OgzxcNLMIc",
+           "expanded_url": "http://bit.ly/SzY8HC",
+           "display_url": "bit.ly/SzY8HC",
+           "indices": [
+            "107",
+            "129"
+           ]
+          }
+         ]
+        }
+       },
+       "protected": "false",
+       "followers_count": "1585",
+       "friends_count": "1905",
+       "listed_count": "74",
+       "created_at": "Thu Nov 24 17:36:58 +0000 2011",
+       "favourites_count": "5024",
+       "utc_offset": "null",
+       "time_zone": "null",
+       "geo_enabled": "true",
+       "verified": "false",
+       "statuses_count": "93935",
+       "lang": "ja",
+       "contributors_enabled": "false",
+       "is_translator": "false",
+       "is_translation_enabled": "false",
+       "profile_background_color": "C0DEED",
+       "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+       "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+       "profile_background_tile": "false",
+       "profile_image_url": "http://pbs.twimg.com/profile_images/699764584635174913/m9X7fyCm_normal.jpg",
+       "profile_image_url_https": "https://pbs.twimg.com/profile_images/699764584635174913/m9X7fyCm_normal.jpg",
+       "profile_banner_url": "https://pbs.twimg.com/profile_banners/420474234/1360602925",
+       "profile_link_color": "0084B4",
+       "profile_sidebar_border_color": "C0DEED",
+       "profile_sidebar_fill_color": "DDEEF6",
+       "profile_text_color": "333333",
+       "profile_use_background_image": "true",
+       "has_extended_profile": "false",
+       "default_profile": "true",
+       "default_profile_image": "false",
+       "following": "false",
+       "follow_request_sent": "false",
+       "notifications": "false"
+      },
+      "geo": "null",
+      "coordinates": "null",
+      "place": "null",
+      "contributors": "null",
+      "is_quote_status": "false",
+      "retweet_count": "0",
+      "favorite_count": "0",
+      "entities": {
+       "hashtags": {
+        "text": "Amazon",
+        "indices": [
+         "30",
+         "37"
+        ]
+       },
+       "urls": {
+        "url": "https://t.co/y5RoLg02Ct",
+        "expanded_url": "https://www.amazon.co.jp/dp/B00W9338C8/ref=cm_sw_r_tw_awd_-qH3wb2Q7PCQX",
+        "display_url": "amazon.co.jp/dp/B00W9338C8/…",
+        "indices": [
+         "6",
+         "29"
+        ]
+       }
+      },
+      "favorited": "false",
+      "retweeted": "false",
+      "possibly_sensitive": "false",
+      "lang": "ja"
+     }
+    ],
+    "search_metadata": {
+     "completed_in": "0.079",
+     "max_id": "706991183306858496",
+     "max_id_str": "706991183306858496",
+     "next_results": "?max_id=706990992742682623&q=%23amazon&include_entities=1",
+     "query": "%23amazon",
+     "refresh_url": "?since_id=706991183306858496&q=%23amazon&include_entities=1",
+     "count": "15",
+     "since_id": "0",
+     "since_id_str": "0"
+    }
+   }
+  }
+ }
+}
