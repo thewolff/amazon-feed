@@ -2,11 +2,56 @@ $padding: 20px;
 .amz-feed {
   height: 250px;
   margin-top: 14px;
+  position: relative;
   width: 100%;
 
   ul {
     height: 150px;
+    &[rn-carousel] > li {
+      font-size: 14px;
+      width: 230px;
+      padding: 0 20px;
+    }
   }
+
+
+  .rn-carousel-controls {
+    position: absolute;
+    top: 0px;
+    left: -37px;
+    width: 339px;
+  }
+
+  .rn-carousel-control {
+    background-color: #fff;
+    height: 100px;
+    line-height: 100px;
+    width: 30px;
+    text-align: center;
+    box-shadow: 0 1px 3px #888;
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+
+    &.rn-carousel-control-next {
+      border-radius: 3px 0 0 3px;
+      clip: rect(-10px 30px 110px -10px);
+      padding-left: 5px;
+    }
+
+    &.rn-carousel-control-prev {
+      border-radius: 0 3px 3px 0;
+      clip: rect(-10px,55px,110px,0);
+      padding-right: 5px;
+    }
+  }
+
+
+  /*.rn-carousel-control.rn-carousel-control-next::before {
+    background: url('https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AmazonGatewa…-gw-2014_sprite-v3-hires-f5773775ef26e1a8b50adde51754067048cb4836._V2_.png');
+    background-position: 0 0;
+    background-size: 132px 184px;
+  }*/
 }
 
 #unrec-pageContent .sidekick {

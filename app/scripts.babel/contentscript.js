@@ -43,7 +43,7 @@ window.addEventListener('load', function() {
       var feed = FeedFactory;
       console.log('yo controlling');
       console.log('feedfactory', feed);
-
+      $scope.feed = [];
       feed.getData().then(function(res) {
         console.log('res', res);
         $scope.feed = res.query.results.json.statuses;
@@ -55,6 +55,7 @@ window.addEventListener('load', function() {
   console.log('so far, right?');
 
   feedDirective.setAttribute('feed-directive', '');
+  feedDirective.setAttribute('ng-cloak', '');
   feedDirective.setAttribute('class', 'amz-feed');
 
   sidebarInner.appendChild(feedDirective);
@@ -64,7 +65,7 @@ window.addEventListener('load', function() {
     .directive('feedDirective', function() {
       return {
         restrict: 'EA',
-        template: '<ul rn-carousel rn-carousel-control rn-carousel-auto-slide>' +
+        template: '<ul rn-carousel rn-carousel-controls rn-carousel-auto-slide rn-carousel-controls-allow-loop>' +
         '<li ng-repeat="tweet in feed">{{tweet.text}}</li>' +
         '</ul>'
       };
