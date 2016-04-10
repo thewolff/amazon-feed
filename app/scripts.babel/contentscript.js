@@ -18,7 +18,7 @@ sidebarContents[1].insertAdjacentHTML('beforebegin', widget);*/
 window.addEventListener('load', function() {
   var app = angular.module('amz', []);
   var html = document.querySelector('html');
-  var sidebarInner = document.querySelector('.sidebar-inner');
+  var sidebarInner = document.querySelector('#sidebar');
   var feedDirective = document.createElement('div');
 
   html.setAttribute('ng-app', '');
@@ -59,6 +59,8 @@ window.addEventListener('load', function() {
 
       feed.getData().then(function(res) {
         console.log('res', res);
+        $scope.feed = res.query.results.json.statuses;
+        console.log($scope.feed);
       });
 
     });
@@ -75,7 +77,7 @@ window.addEventListener('load', function() {
     .directive('feedDirective', function() {
       return {
         restrict: 'EA',
-        template: '<input value="Search on Bing" name="btnB" type="submit">'
+        template: '<div ng-repeat="tweet in feed">{{tweet.text}}</div>'
       };
     });
 
