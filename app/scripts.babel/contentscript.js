@@ -3,7 +3,7 @@
 console.log('\'Allo \'Allo! Content script');
 
 window.addEventListener('load', function() {
-  var app = angular.module('amz', ['ngAnimate']);
+  var app = angular.module('amz', ['ngAnimate', 'ngTouch', 'angular-carousel']);
   var html = document.querySelector('html');
   var sidebarInner = document.querySelector('#sidebar');
   var feedDirective = document.createElement('div');

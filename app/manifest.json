@@ -49,12 +49,15 @@
       ],
       "css": [
         "bower_components/angular/angular-csp.css",
+        "bower_components/angular-carousel/dist/angular-carousel.min.css",
         "styles/main.css"
       ],
       "js": [
         "twitter.json",
         "bower_components/angular/angular.js",
         "bower_components/angular-animate/angular-animate.min.js",
+        "bower_components/angular-touch/angular-touch.min.js",
+        "bower_components/angular-carousel/dist/angular-carousel.min.js",
         "scripts/contentscript.js"
       ],
       "run_at": "document_end",
@@ -69,6 +72,8 @@
     "twitter.json",
     "bower_components/angular/*",
     "bower_components/angular-animate/*",
+    "bower_components/angular-touch/*",
+    "bower_components/angular-carousel/*",
     "images/icon-48.png"
   ]
 }
