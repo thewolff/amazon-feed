@@ -64,7 +64,9 @@ window.addEventListener('load', function() {
     .directive('feedDirective', function() {
       return {
         restrict: 'EA',
-        template: '<div ng-repeat="tweet in feed">{{tweet.text}}</div>'
+        template: '<ul rn-carousel rn-carousel-control rn-carousel-auto-slide>' +
+        '<li ng-repeat="tweet in feed">{{tweet.text}}</li>' +
+        '</ul>'
       };
     });
 
