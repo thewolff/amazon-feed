@@ -9,17 +9,30 @@ $padding: 20px;
     height: 150px;
     &[rn-carousel] > li {
       font-size: 14px;
-      width: 230px;
-      padding: 0 20px;
+      //width: 230px;
+      //padding: 0 20px;
+    }
+
+    li {
+      span {
+        display: block;
+      }
     }
   }
 
 
   .rn-carousel-controls {
+    display: none;
+    height: 200px;
+    opacity: 0;
     position: absolute;
-    top: 0px;
+    top: -85px;
     left: -37px;
     width: 339px;
+
+    &:hover {
+      opacity: 1;
+    }
   }
 
   .rn-carousel-control {
