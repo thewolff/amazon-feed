@@ -45,16 +45,16 @@
     background-color: #fff;
     height: 100px;
     line-height: 100px;
-    width: 30px;
+    width: 45px;
     text-align: center;
     box-shadow: 0 1px 3px #888;
     user-select: none;
     -ms-user-select: none;
     -webkit-user-select: none;
-
+    
     &.rn-carousel-control-next {
       border-radius: 3px 0 0 3px;
-      clip: rect(-10px 30px 110px -10px);
+      clip: rect(-10px,45px,110px,-10px);
       padding-left: 5px;
       
       &::before {
@@ -62,7 +62,7 @@
         display: block;
         position: absolute;
         top: 35px;
-        left: 10px;
+        left: 15px;
         background-image: url('http://g-ecx.images-amazon.com/images/G/01/AUIClients/AmazonGatewayAuiAssets-gw-2014_sprite-v3-hires-f5773775ef26e1a8b50adde51754067048cb4836._V2_.png');
         background-position: 0 0;
         background-size: 132px 184px;

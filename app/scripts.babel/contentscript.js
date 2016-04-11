@@ -1,7 +1,5 @@
 'use strict';
 
-console.log('\'Allo \'Allo! Content script');
-
 window.addEventListener('load', function() {
 
   /**
@@ -57,6 +55,7 @@ window.addEventListener('load', function() {
       feed.getData().then(function(res) {
         $scope.feed = res.query.results.json.statuses.map(function(obj) {
           var oldDate = obj.created_at;
+          console.log('obj', obj)
           obj.created_at = new Date(Date.parse(
             oldDate.replace(/( \+)/, ' UTC$1')
           ));
