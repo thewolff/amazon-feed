@@ -1,6 +1,5 @@
-$padding: 20px;
 .amz-feed {
-  height: 250px;
+  height: 125px;
   margin-top: 14px;
   position: relative;
   width: 100%;
@@ -13,25 +12,37 @@ $padding: 20px;
       //padding: 0 20px;
     }
 
-    li {
-      span {
-        display: block;
+    .user {
+      display: block;
+      padding-bottom: 5px;
+    }
+
+    .date {
+      font-size: 10px;
+    }
+  }
+
+  &.hover {
+    .rn-carousel-controls {
+      .rn-carousel-control {
+        opacity: .75;
       }
     }
   }
 
 
   .rn-carousel-controls {
-    display: none;
-    height: 200px;
-    opacity: 0;
+    height: 0;
     position: absolute;
-    top: -85px;
+    top: 125px;
     left: -37px;
     width: 339px;
 
-    &:hover {
-      opacity: 1;
+    .rn-carousel-control {
+      top: -125px;
+      opacity: 0;
+      transition: opacity 500ms ease-in-out;
+      -webkit-transition: opacity 500ms ease-in-out;
     }
   }
 

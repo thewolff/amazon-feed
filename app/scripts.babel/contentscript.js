@@ -57,6 +57,9 @@ window.addEventListener('load', function() {
   feedDirective.setAttribute('feed-directive', '');
   feedDirective.setAttribute('ng-cloak', '');
   feedDirective.setAttribute('class', 'amz-feed');
+  feedDirective.setAttribute('ng-mouseenter', 'hover = true');
+  feedDirective.setAttribute('ng-mouseleave', 'hover = false');
+  feedDirective.setAttribute('ng-class', '{hover: hover}');
 
   sidebarInner.appendChild(feedDirective);
 
