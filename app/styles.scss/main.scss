@@ -1,16 +1,11 @@
 .amz-feed {
-  height: 125px;
-  margin-top: 14px;
+  height: 150px;
+  margin: 15px 0;
   position: relative;
   width: 100%;
 
   ul {
     height: 150px;
-    &[rn-carousel] > li {
-      font-size: 14px;
-      //width: 230px;
-      //padding: 0 20px;
-    }
 
     .user {
       display: block;
@@ -39,7 +34,7 @@
     width: 339px;
 
     .rn-carousel-control {
-      top: -125px;
+      top: -90px;
       opacity: 0;
       transition: opacity 500ms ease-in-out;
       -webkit-transition: opacity 500ms ease-in-out;

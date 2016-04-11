@@ -3,16 +3,24 @@
 console.log('\'Allo \'Allo! Content script');
 
 window.addEventListener('load', function() {
+  /* Initialize our vars and grab our dom elements*/
   var app = angular.module('amz', ['ngAnimate', 'ngTouch', 'angular-carousel']);
   var html = document.querySelector('html');
   var sidebarInner = document.querySelector('#sidebar');
+  var firstAd = angular.element(document.getElementById('desktop-ad-atf'));
   var feedDirective = document.createElement('div');
 
+  /* Bootstraping angular */
   html.setAttribute('ng-app', '');
   html.setAttribute('ng-csp', '');
 
   sidebarInner.setAttribute('ng-controller', 'MainController');
 
+  /* Factory for our twitter service.
+     Could easily be modified to add
+     other feeds ie Instagram
+  */
+ 
   angular
     .module('amz')
     .factory('FeedFactory', function($http) {
@@ -41,19 +49,22 @@ window.addEventListener('load', function() {
     .module('amz')
     .controller('MainController', function($scope, FeedFactory) {
       var feed = FeedFactory;
-      console.log('yo controlling');
-      console.log('feedfactory', feed);
       $scope.feed = [];
       feed.getData().then(function(res) {
-        console.log('res', res);
-        $scope.feed = res.query.results.json.statuses;
-        console.log($scope.feed);
+        $scope.feed = res.query.results.json.statuses.map(function(obj) {
+          var oldDate = obj.created_at;
+          obj.created_at = new Date(Date.parse(
+            oldDate.replace(/( \+)/, ' UTC$1')
+          ));
+          return obj;
+        });
       });
 
     });
 
-  console.log('so far, right?');
-
+  /* Initializing our feedDirective and
+  adding hover listeners for controls.
+  */
   feedDirective.setAttribute('feed-directive', '');
   feedDirective.setAttribute('ng-cloak', '');
   feedDirective.setAttribute('class', 'amz-feed');
@@ -61,14 +72,15 @@ window.addEventListener('load', function() {
   feedDirective.setAttribute('ng-mouseleave', 'hover = false');
   feedDirective.setAttribute('ng-class', '{hover: hover}');
 
-  sidebarInner.appendChild(feedDirective);
-
+  firstAd.after(feedDirective);
   angular
     .module('amz')
     .directive('feedDirective', function($sce) {
       return {
         restrict: 'EA',
-        templateUrl: $sce.trustAsResourceUrl(chrome.extension.getURL('templates/carousel.html'))
+        templateUrl: $sce.trustAsResourceUrl(
+          chrome.extension.getURL('templates/carousel.html')
+        );
       };
     });
 

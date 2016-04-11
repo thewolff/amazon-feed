@@ -1,9 +1,10 @@
+<hr class="slot-hr desktop-ad-atf-hr">
 <ul rn-carousel rn-carousel-controls rn-carousel-controls-allow-loop>
   <li ng-repeat="tweet in feed">
     <a href="https://twitter.com/{{tweet.user.screen_name}}" target="_blank" class="user">
       <span>@{{tweet.user.screen_name}}</span>
     </a>
     <p class="body">{{tweet.text}}</p>
-    <p class="date">{{tweet.created_at}}</p>
+    <p class="date">{{tweet.created_at | date:"EEE MMM dd 'at' h:mma"}}</p>
   </li>
 </ul>
