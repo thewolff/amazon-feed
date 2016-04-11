@@ -56,33 +56,38 @@
       border-radius: 3px 0 0 3px;
       clip: rect(-10px 30px 110px -10px);
       padding-left: 5px;
+      
+      &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 35px;
+        left: 10px;
+        background-image: url('http://g-ecx.images-amazon.com/images/G/01/AUIClients/AmazonGatewayAuiAssets-gw-2014_sprite-v3-hires-f5773775ef26e1a8b50adde51754067048cb4836._V2_.png');
+        background-position: 0 0;
+        background-size: 132px 184px;
+        height: 22px;
+        width: 13px;
+      }
     }
 
     &.rn-carousel-control-prev {
       border-radius: 0 3px 3px 0;
       clip: rect(-10px,55px,110px,0);
       padding-right: 5px;
+
+      &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 35px;
+        left: 10px;
+        background-image: url('http://g-ecx.images-amazon.com/images/G/01/AUIClients/AmazonGatewayAuiAssets-gw-2014_sprite-v3-hires-f5773775ef26e1a8b50adde51754067048cb4836._V2_.png');
+        background-position: -14px 0;
+        background-size: 132px 184px;
+        height: 22px;
+        width: 13px;
+      }
     }
   }
-
-
-  /*.rn-carousel-control.rn-carousel-control-next::before {
-    background: url('https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AmazonGatewa…-gw-2014_sprite-v3-hires-f5773775ef26e1a8b50adde51754067048cb4836._V2_.png');
-    background-position: 0 0;
-    background-size: 132px 184px;
-  }*/
-}
-
-#unrec-pageContent .sidekick {
-  height: 196px !important;
-  position: relative !important;
-}
-
-#unrec-pageContent .sidebar #desktop-unrec-ad {
-  position: relative !important;
-}
-
-#unrec-pageContent .gw-flex-col .desktop-unrec-col {
-  min-height: 724px !important;
-  max-height: inherit !important;
 }

@@ -3,7 +3,10 @@
 console.log('\'Allo \'Allo! Content script');
 
 window.addEventListener('load', function() {
-  /* Initialize our vars and grab our dom elements*/
+
+  /**
+   * Initializes our vars and grab our dom elements
+   */
   var app = angular.module('amz', ['ngAnimate', 'ngTouch', 'angular-carousel']);
   var html = document.querySelector('html');
   var sidebarInner = document.querySelector('#sidebar');
@@ -16,11 +19,12 @@ window.addEventListener('load', function() {
 
   sidebarInner.setAttribute('ng-controller', 'MainController');
 
-  /* Factory for our twitter service.
-     Could easily be modified to add
-     other feeds ie Instagram
-  */
- 
+  /**
+   * Create factory for our twitter service.
+   * Could easily be modified to add
+   * other feeds such as Instagram
+   */
+
   angular
     .module('amz')
     .factory('FeedFactory', function($http) {
@@ -62,9 +66,11 @@ window.addEventListener('load', function() {
 
     });
 
-  /* Initializing our feedDirective and
-  adding hover listeners for controls.
-  */
+  /**
+   * Initailizes our feedDiractive
+   * and adds hover listeners for controls
+   */
+
   feedDirective.setAttribute('feed-directive', '');
   feedDirective.setAttribute('ng-cloak', '');
   feedDirective.setAttribute('class', 'amz-feed');
@@ -78,9 +84,7 @@ window.addEventListener('load', function() {
     .directive('feedDirective', function($sce) {
       return {
         restrict: 'EA',
-        templateUrl: $sce.trustAsResourceUrl(
-          chrome.extension.getURL('templates/carousel.html')
-        );
+        templateUrl: $sce.trustAsResourceUrl(chrome.extension.getURL('templates/carousel.html'))
       };
     });
 
