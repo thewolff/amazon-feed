@@ -60,6 +60,7 @@
         "bower_components/angular-carousel/dist/angular-carousel.min.js",
         "scripts/contentscript.js"
       ],
+      "html": [ "templates/carousel.html" ],
       "run_at": "document_end",
       "all_frames": false
     }
@@ -74,6 +75,7 @@
     "bower_components/angular-animate/*",
     "bower_components/angular-touch/*",
     "bower_components/angular-carousel/*",
+    "templates/carousel.html",
     "images/icon-48.png"
   ]
 }

@@ -62,15 +62,10 @@ window.addEventListener('load', function() {
 
   angular
     .module('amz')
-    .directive('feedDirective', function() {
+    .directive('feedDirective', function($sce) {
       return {
         restrict: 'EA',
-        template: '<ul rn-carousel rn-carousel-controls rn-carousel-auto-slide rn-carousel-controls-allow-loop>' +
-        '<li ng-repeat="tweet in feed">' +
-        '<a href="https://twitter.com/{{tweet.user.screen_name}}" target="_blank"><span class="user">{{tweet.user.screen_name}}</span></a>' +
-        '<span class="body">{{tweet.text}}</span>' +
-        '</li>' +
-        '</ul>'
+        templateUrl: $sce.trustAsResourceUrl(chrome.extension.getURL('templates/carousel.html'))
       };
     });
 
